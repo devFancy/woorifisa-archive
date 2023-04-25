@@ -1,12 +1,38 @@
 .h1-class {
-  background-color: antiquewhite;
-  padding: 2%;
-  margin-bottom: 3%;
-  text-align: center;
-  font-size: 50px;
+    background: linear-gradient(45deg, rgb(0, 123, 199), white);
+    padding: 2%;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#testId {
+    font-size: 20px;
+    text-align: left;
+}
+
+#testDiv {
+    display: flex;
+}
+
+.divTest {
+    width: 450px;
+    border: 1px solid gainsboro;
+    margin: 3vh;
+}
+
+img {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.name {
+    padding: 50px;
 }
