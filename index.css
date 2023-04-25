@@ -1,5 +1,6 @@
 .h1-class {
     background: linear-gradient(45deg, rgb(0, 123, 199), white);
+    background-color: antiquewhite;
     padding: 2%;
     margin-bottom: 3%;
     text-align: center;
