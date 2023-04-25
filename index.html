@@ -4,6 +4,7 @@
 <head th:replace="fragments/header :: header">
     <title>모아모아</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -12,25 +13,17 @@
         <div th:replace="fragments/bodyHeader :: bodyHeader" />
         <div class="jumbotron">
             </hr>
-            <p class="lead">맛집</p>
-            </br>
+            <h2 class="lead">맛집</p>
+                </hr>
+                </br>
         </div>
         <div th:replace="fragments/footer :: footer" />
     </div> <!-- /container -->
     <div class="container">
         <div th:replace="fragments/bodyHeader :: bodyHeader" />
         <div class="jumbotron">
-            <p class="lead">카페</p>
-            </br>
-        </div>
-        <div th:replace="fragments/footer :: footer" />
-    </div> <!-- /container -->
-
-    <div class="container">
-        <div th:replace="fragments/bodyHeader :: bodyHeader" />
-        <div class="jumbotron">
-            <p class="lead">미용실</p>
-            </br>
+            <h2 class="lead">카페</p>
+                </br>
         </div>
         <div th:replace="fragments/footer :: footer" />
     </div> <!-- /container -->
@@ -38,11 +31,28 @@
     <div class="container">
         <div th:replace="fragments/bodyHeader :: bodyHeader" />
         <div class="jumbotron">
-            <p class="lead">약국</p>
-            </br>
+            <h2 class="lead">미용실</p>
+                </br>
+        </div>
+        <div th:replace="fragments/footer :: footer" />
+    </div> <!-- /container -->
+
+    <div class="container">
+        <div th:replace="fragments/bodyHeader :: bodyHeader" />
+        <div class="jumbotron">
+            <h2 class="lead">약국</p>
+                </br>
         </div>
         <div th:replace="fragments/footer :: footer" />
     </div> <!-- /container -->
 </body>
+<div id='wrapper'>
+    <div>
+        모두가 궁금한 것들을 한번에!
+        </br>
+        상암동에 있는 맛집, 카페, 미용실, 약국 추천하는 웹사이트
+    </div>
+</div>
+<footer></footer>
 
 </html>
