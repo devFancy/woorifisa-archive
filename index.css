@@ -23,13 +23,13 @@ body {
 }
 
 .divTest {
-    width: 450px;
+    width: 50%;
     border: 1px solid gainsboro;
     margin: 3vh;
 }
 
 img {
-    width: 400px;
+    height: 20em;
     display: block;
     margin: 0 auto;
 }
