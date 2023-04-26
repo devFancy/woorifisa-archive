@@ -60,7 +60,8 @@ CSS 부분에서 고정적인 값인 px보다 동적인 em이나 vh 로 변환�
 
 <br>
 <br>
-![성능 이미지](https://user-images.githubusercontent.com/93786956/234441124-6f06f480-9095-4809-8217-5b3e1f3672d4.PNG)
+<img src="https://user-images.githubusercontent.com/93786956/234441194-a72af8c4-a394-45e8-baac-d62ffa049a05.PNG">
+
 
 
 ## ❤팀 문화소개
