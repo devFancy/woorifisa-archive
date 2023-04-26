@@ -1,7 +1,7 @@
 # 3조 팀명
 
 <div align=center>
-    <img width="500" src="img/momo.png">
+    <img width="750" src="img/momo.png">
     <h2> 상암동 주변의 편의 시설, 우리가 알려줄게! </h2>
     https://fancy96.github.io/wootegory/
     <br>
