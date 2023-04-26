@@ -3,7 +3,7 @@
 <div align=center>
     <img width="750" src="img/momo.png">
     <h2> 상암동 주변의 편의 시설, 우리가 알려줄게! </h2>
-    https://fancy96.github.io/wootegory/
+    https://fancy96.github.io/moamoa/
     <br>
     <br>
     <strong>모아모아</strong>는 우리FISA 주변의 편의시설 추천을 통해
