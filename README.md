@@ -39,13 +39,12 @@
 |      [문준용](https://github.com/Fancy96)       |      [이혜원](https://github.com/hyewon29)       |      [김수현](https://github.com/ooutta)       |          [정주영](https://github.com/ooutta)          |
 
 
-## 🏻😜 차별성
+## 😜 차별성
 
 <strong>다른 페이지들과 다르게 미터 단위가 아닌 도보 거리로 나타내어 짧은 시간의 시간 분배의 도움이 되게 하였다.</strong>
 <br>
 <br>
-
-![momo](https://user-images.githubusercontent.com/93786956/234437967-990c65f0-5a96-4f85-bfff-e477ecfe8117.gif)
+ 
 
 <br>
 <br>
