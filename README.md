@@ -21,7 +21,14 @@
 
 ## 💁🏻 서비스 소개
 
+<strong>4 개의 카테고리로 나누어 맛집, 카페, 미용실, 약국 으로 자주 갈만한 접근성이 좋은 곳 위주로 모아 소개를 해주는 웹페이지 입니다.</strong>
+<br>
+<br>
 
+![momo](https://user-images.githubusercontent.com/93786956/234437967-990c65f0-5a96-4f85-bfff-e477ecfe8117.gif)
+
+<br>
+<br>
 
 
 ## 🙌🏻 팀 소개
