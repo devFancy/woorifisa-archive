@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'WooridaumR';
+    src: url("WooridaumR.ttf");
+    font-display: swap; /* 폰트 로드 중 텍스트 표시 */
+}
+
+* {
+    font-family: 'WooridaumR';
+}
+
 .h1-class {
     background: linear-gradient(45deg, rgb(0, 123, 199), white);
     background-color: antiquewhite;
@@ -8,38 +18,48 @@
     color: white;
 }
 
+#internal-link a {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 2em;
+}
+
 h1 {
     font-size: 3em;
     margin-left: 5%;;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
-#testId {
-    font-size: 20px;
-    text-align: left;
-}
-
-#testDiv {
+.category-class {
     display: flex;
 }
 
-.divTest {
+.store-class {
     width: 50%;
     border: 1px solid gainsboro;
     margin: 3vh;
+    flex : 1;
+}
+
+.content-class {
+    padding: 3em;
 }
 
 img {
-    height: 20em;
+    width: 300px;
+    height: 200px;
+    object-fit: scale-down;
     display: block;
     margin: 0 auto;
 }
 
-.name {
-    padding: 50px;
+.store {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
 }
 
+.subject {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: left;
+}
