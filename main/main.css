@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    font-family: 'Single Day', cursive;
+    font-weight: 500;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 142vh;
+    margin: 0vh 25vh;
+
+    position: fixed;
+    bottom: 0;
+}
+
+#footer_title {
+    border-right: 5px black solid;
+    font-size: 4vh;
+    width: 20%;
+    padding-top: 2%;
+    text-align: center;
+    background-color: aqua;
+}
+
+#footer_content{
+    padding: 2vh;
+    padding-left: 3vh;
+    text-align: left;
+    font-size: 2.5vh;
+    width: 80%;
+    background-color: aqua;
+}
