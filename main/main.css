@@ -3,15 +3,16 @@ body {
     height: 100%;
     display: inline-flex;
     justify-content: center;
-
+    flex-direction: column;
 }
 
 header {
     font-family: 'Single Day', cursive;
     font-weight: bolder;
     width: 60%;
-    position: fixed;
-    top: 0;
+    margin: 0 auto;
+    /*position: fixed;*/
+    /*top: 0;*/
     display: inline-flex;
     justify-content: center;
     background-color: rgb(255, 97, 150);
@@ -29,14 +30,74 @@ header {
     margin-top: 1%;
 }
 
+main {
+    font-family: 'Single Day', cursive;
+    font-weight: bolder;
+    width: 60%;
+    margin: 0 auto;
+}
+#coin_slot_machine_title_container {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    background-color: aquamarine;
+}
+#coin_slot_machine_title{
+    width: 100%;
+    text-align: center;
+    font-size: 5vh;
+}
+#coin_slot_machine_title_content{
+    width: 100%;
+    text-align: center;
+}
+
+#coin_slot_machine_container {
+    width: 100%;
+    height: 80vh;
+    display: inline-flex;
+    justify-content: center;
+    background-color: beige;
+
+
+
+}
+#coin_slot_machine_outerbox {
+    width: 80%;
+    height: 80%;
+    margin: auto 0;
+    background-color: saddlebrown;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.coin_slot_machine_innerbox {
+    background-color: aliceblue;
+    width: 30%;
+    height: 25%;
+    margin: auto 0;
+    padding-top: 10%;
+    font-size: 4.5vh;
+    text-align: center;
+
+}
+
+#coin_slot_machine_button {
+    background-color: red;
+    width: 10%;
+    height: 80%;
+    margin: auto 0;
+}
+
 
 footer {
     font-family: 'Single Day', cursive;
     display: inline-flex;
     justify-content: space-between;
     width: 60%;
-    position: fixed;
-    bottom: 0;
+    margin: 0 auto;
+    /*position: fixed;*/
+    /*bottom: 0;*/
 }
 
 #footer_title {
