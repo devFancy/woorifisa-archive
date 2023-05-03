@@ -87,11 +87,20 @@ main {
 
 }
 
+/* coin_slot_machine_buttin */
+
 #coin_slot_machine_button {
-    background-color: red;
-    width: 10%;
-    height: 80%;
-    margin: auto 0;
+background-color: red;
+width: 10%;
+height: 80%;
+margin: auto 0;
+display: inline-flex;
+justify-content: center;
+}
+#coin_slot_machine_button_content {
+width: 55%;
+height: 7.5%;
+margin: auto 0;
 }
 
 /* coin list */
