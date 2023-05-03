@@ -16,8 +16,7 @@ body {
 
 /* header */
 header {
-    font-family: 'Single Day', cursive;
-    font-weight: bolder;
+    font-family: 'Black Han Sans', sans-serif;
     width: 100%;
     margin: 0 0;
     display: inline-flex;
@@ -46,7 +45,7 @@ header {
 /* main */
 
 main {
-    font-family: 'Single Day', cursive;
+    font-family: 'Hahmlet', serif;
     font-weight: bolder;
     width: 60%;
     margin: 0 auto;
@@ -246,7 +245,7 @@ td:last-child{
 /* footer */
 
 footer {
-    font-family: 'Single Day', cursive;
+    font-family: 'Black Han Sans', sans-serif;
     display: inline-flex;
     justify-content: space-between;
     width: 100%;
