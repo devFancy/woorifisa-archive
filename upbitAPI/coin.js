@@ -7,31 +7,16 @@ ballButton.addEventListener('click', () => {
   fetchCoin();
 });
 
-// const ccxt = require("ccxt");
+//페이지의 텍스트에 연결하는 부분
 const fetchCoin = async () => {
   const coins = await coinRoulette();
   const [coinName1, coinName2, coinName3] = section1(coins);
   s1.textContent = coinName1;
   s2.textContent = coinName2;
   s3.textContent = coinName3;
-
-  //기능 1 연결 부분
-  // console.log(coins);
-
-  //기능 2 시작
-  //processing before comparing
-  for (let i = 0; i < coins.length; i++) {
-    //-로 스플릿 한 후 해당 코인의 축약형 영문 이름만 추출
-    let tmpVar = coins[i].market_name.split('-', 2);
-    coins[i].market_name = tmpVar[1];
-  }
-  // 출력
-  // console.log(coins);
-
-
- //coinTicker
 }
 
+//시세 종목 api 데이터 받아오는 부분
 const coinRoulette = async () => {
   const response = await fetch('https://api.upbit.com/v1/market/all?isDetails=false', options);
   const preRoulette = await response.json();
@@ -45,6 +30,19 @@ const coinRoulette = async () => {
   });
 }
 
+const listRoulette = async (varString) => {
+  const response = await fetch('https://api.upbit.com/v1/ticker?markets=' + varString, options)
+  const preList = await response.json();
+
+  return preList.map(coin => {
+    return {
+      market_name: coin.market,
+      trade_price: coin.trade_price
+    };
+  });
+}
+
+//랜덤 함수 출력
 const section1 = (coins) => {
   let tmpArr = [];
   for (let i = 0; i < 3; i++) {
@@ -54,5 +52,23 @@ const section1 = (coins) => {
   return tmpArr;
 }
 
-// setInterval (1초마다), 
-// setInterval 코드 내부에서 node서버에 요청
+//market 코드 비교 후 배열 생성
+const section2 = (coins, price, numString) => {
+  let emptyArr = [];
+  for (let i = 0; i < price.length; i++) {
+    let priceString = String(price.trade_price);
+    let cnt = 0;
+    for (let k = 0; k < priceString.length; k++) {
+      if(numString === priceString[i]){
+        cnt++;
+      }
+    }
+    if(cnt >= 2){
+      for (let j = 0; j < coins.length; j++) {
+        if(price.market_name === coins.market_name){
+          emptyArr.push([coins.korean_name, price.trade_price]);
+        }  
+      }
+    } 
+    }
+  }
