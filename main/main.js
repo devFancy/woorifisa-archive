@@ -1,3 +1,4 @@
+// 팝업창
 const coinSlotMachineContent = document.getElementsByClassName(
 "coin_slot_machine_innerbox_content"
 );
