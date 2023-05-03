@@ -1,30 +1,38 @@
 // 팝업창
 const coinSlotMachineContent = document.getElementsByClassName(
-"coin_slot_machine_innerbox_content"
+"coin_slot_machine_innerbox_content" //aaa
 );
-const coinSlotMachineButtonContent = document.getElementById(
-"coin_slot_machine_button_content"
-);
+const coinSlotMachineContainer = document.getElementById("coin_slot_machine_button_container");
+const coinSlotMachineTop = document.getElementById("top");
+const coinSlotMachineBall = document.getElementById("ball");
+const coinSlotMachineBottom = document.getElementById("bottom");
+
 
 const openPopup = () => {
-const url = "../popup/popup.html";
-const name = "popup content";
-const w = 700;
-const h = 700;
-const left = screen.width / 2 - w / 2;
-const top = screen.height / 2 - h / 2;
-const option = `width=${w},height=${h},top=${top},left=${left}`;
-
-window.open(url, name, option);
+    const url = "../popup/popup.html";
+    const name = "popup content";
+    const w = 700;
+    const h = 700;
+    const left = screen.width / 2 - w / 2;
+    const top = screen.height / 2 - h / 2;
+    const option = `width=${w},height=${h},top=${top},left=${left}`;
+    
+    window.open(url, name, option);
 };
 
-coinSlotMachineButtonContent.addEventListener("click", () => {
-if (
-    coinSlotMachineContent[0].textContent ===
-    coinSlotMachineContent[1].textContent &&
-    coinSlotMachineContent[1].textContent ===
-    coinSlotMachineContent[2].textContent
-) {
-    openPopup();
-}
+coinSlotMachineContainer.addEventListener("click", () => {
+    coinSlotMachineTop.style.transform = 'rotate(40deg)';
+
+    if (
+        coinSlotMachineContent[0].textContent ===
+        coinSlotMachineContent[1].textContent &&
+        coinSlotMachineContent[1].textContent ===
+        coinSlotMachineContent[2].textContent
+    ) {
+        openPopup();
+    }
+    setTimeout(()=>{coinSlotMachineTop.style.transform = 'rotate(0deg)';}, "1000")
 });
+
+
+
