@@ -6,6 +6,7 @@ body {
     flex-direction: column;
 }
 
+/* header */
 header {
     font-family: 'Single Day', cursive;
     font-weight: bolder;
@@ -23,12 +24,13 @@ header {
     padding-top: 2%;
     text-align: center;
     margin-right: -30px;
-
 }
 
 #header_bear_img {
     margin-top: 1%;
 }
+
+/* main */
 
 main {
     font-family: 'Single Day', cursive;
@@ -36,17 +38,22 @@ main {
     width: 60%;
     margin: 0 auto;
 }
+
+/* slot machine */
+
 #coin_slot_machine_title_container {
     padding-top: 3%;
     padding-bottom: 3%;
     width: 100%;
     background-color: aquamarine;
 }
+
 #coin_slot_machine_title{
     width: 100%;
     text-align: center;
     font-size: 5vh;
 }
+
 #coin_slot_machine_title_content{
     width: 100%;
     text-align: center;
@@ -58,10 +65,8 @@ main {
     display: inline-flex;
     justify-content: center;
     background-color: beige;
-
-
-
 }
+
 #coin_slot_machine_outerbox {
     width: 80%;
     height: 80%;
@@ -89,6 +94,81 @@ main {
     margin: auto 0;
 }
 
+/* coin list */
+
+#coin_list_title {
+    font-size: 5vh;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+#coin_list_container {
+    width: 100%;
+    height: 60vh;
+    padding: 5% 0;
+    display: inline-flex;
+    justify-content: space-around;
+    background-color: wheat;
+}
+
+.coin_list_card {
+    text-align: center;
+    width: 30%;
+    background-color: aquamarine;
+    display: inline-flexbox;
+    justify-content: center;
+}
+
+.coin_table_title {
+    font-size: 3vh;
+    height: 10%;
+    background-color: green;
+    padding: 2% 0;
+}
+
+.coin_list_table {
+    width: 100%;
+    height: 80%;
+    background-color: black
+}
+
+/* coin list의 table - th, td 적용 */
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 2.5vh;
+    background-color: aqua;
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+}
+
+th:last-child {
+    border-right: none;
+}
+
+tr {
+    border-bottom: 1px solid red;
+}
+
+tr:last-child{
+    border-bottom: none;
+}
+
+td {
+    
+    font-size: 2vh;
+    background-color: cornsilk;
+    border-right: 1px solid red;
+}
+
+td:last-child{
+    border-right: none;
+
+}
+/* footer */
 
 footer {
     font-family: 'Single Day', cursive;
