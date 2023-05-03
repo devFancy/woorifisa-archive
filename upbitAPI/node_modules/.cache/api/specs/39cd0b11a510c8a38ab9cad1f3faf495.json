@@ -1,0 +1,23 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "BaseUrl",
+    "version": "unknown"
+  },
+  "servers": [
+    {
+      "url": "https://api.upbit.com/v1"
+    }
+  ],
+  "components": {
+    "securitySchemes": {}
+  },
+  "security": [
+    {}
+  ],
+  "paths": {},
+  "x-readme": {
+    "headers": []
+  },
+  "x-readme-fauxas": true
+}

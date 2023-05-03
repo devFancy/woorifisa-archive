@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "api": "^5.0.8",
+    "ccxt": "^3.0.89",
+    "jsonwebtoken": "^9.0.0",
+    "request-promise": "^4.2.6",
+    "require": "^2.4.20",
+    "upbit": "^0.0.1",
+    "upbit-js": "^0.0.7"
+  },
+  "type": "commonjs"
+}
