@@ -1,22 +1,32 @@
 body {
     width: 100%;
     height: 100%;
+    margin: 0;
+
     display: inline-flex;
     justify-content: center;
     flex-direction: column;
+    background-color: #4eb7ac;
+    background-image: linear-gradient(bottom,#fbf3dd,transparent);
+    background-image: -moz-linear-gradient(bottom,#fbf3dd,transparent);
+    background-image:-webkit-gradient(linear,0 0,100% 0%,color-stop(0.5,#fbf3dd),color-stop(0.5,transparent),to(transparent));
+    background-size: 10% 10%;
+    -moz-background-size:10px 10px;
 }
 
 /* header */
 header {
-    font-family: 'Single Day', cursive;
-    font-weight: bolder;
-    width: 60%;
-    margin: 0 auto;
-    /*position: fixed;*/
-    /*top: 0;*/
+    font-family: 'Black Han Sans', sans-serif;
+    width: 100%;
+    margin: 0 0;
     display: inline-flex;
     justify-content: center;
-    background-color: rgb(255, 97, 150);
+    background-color: #447ab6;
+
+    Position: sticky;
+    top:0px;
+
+    z-index: 999;
 }
 
 #header_title {
@@ -24,6 +34,8 @@ header {
     padding-top: 2%;
     text-align: center;
     margin-right: -30px;
+    color: #fbf3dd;
+    /* -webkit-text-stroke: 2px grey; */
 }
 
 #header_bear_img {
@@ -33,74 +45,93 @@ header {
 /* main */
 
 main {
-    font-family: 'Single Day', cursive;
+    font-family: 'Hahmlet', serif;
     font-weight: bolder;
     width: 60%;
     margin: 0 auto;
 }
 
 /* slot machine */
+#coin_slot_machine_wrap{
+    width: 100%;
+    margin-top: 5%;
+    background-color: rgb(255,227,91);
+}
 
 #coin_slot_machine_title_container {
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-left: 3%;
+    margin: 1% 0;
     width: 100%;
-    background-color: aquamarine;
+    color: #4b4218;
+
 }
 
 #coin_slot_machine_title{
     width: 100%;
-    text-align: center;
+    text-align:left;
     font-size: 5vh;
 }
 
 #coin_slot_machine_title_content{
     width: 100%;
-    text-align: center;
+    text-align: left;
+    font-size: 3vh;
 }
 
 #coin_slot_machine_container {
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     display: inline-flex;
     justify-content: center;
-    background-color: beige;
+
 }
 
 #coin_slot_machine_outerbox {
     width: 80%;
-    height: 80%;
-    margin: auto 0;
-    background-color: saddlebrown;
+    height: 90%;
+    margin-top:0;
+    background-color: #dbdbd2;
     display: inline-flex;
     justify-content: space-around;
+    border: 5px solid #4b4218;
+
 }
 
 .coin_slot_machine_innerbox {
     background-color: aliceblue;
     width: 30%;
-    height: 25%;
+    height: 50%;
     margin: auto 0;
-    padding-top: 10%;
-    font-size: 4.5vh;
-    text-align: center;
 
+    font-size: 3.5vh;
+    text-align: center;
+    border: 5px solid #4b4218;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.coin_slot_machine_innerbox_content{
+    color: #4b4218;
 }
 
 /* coin_slot_machine_button */
 
 #coin_slot_machine_button_container {
-background-color: red;
+
 width: 15%;
-height: 80%;
-margin: auto 0;
+height: 90%;
+margin-top:0;
 position: relative;
 z-index: 10;
 cursor: pointer;
 }
 
 #top {
-    background-color: #333;
+    background-color: #4b4218;
     width: 100%;
     height: 15px;
     top: 50%;
@@ -109,17 +140,18 @@ cursor: pointer;
 
 #ball {
     display: block;
-    background-color: #ca1717;
+    background-color: #E7919f;
     width: 6.25vh;
     height: 6.25vh;
     position: absolute;
     right: -0.625vh;
     top: -2.5vh;
     border-radius: 50%;
+    border: 0.25vh solid #4b4218;
 }
 
 #bottom {
-    background-color: #551c37;
+    background-color: #4b4218;
     width: 5vh;
     height: 15vh;
     position: absolute;
@@ -130,26 +162,32 @@ cursor: pointer;
 
 
 /* coin list */
+#coin_list_wrap {
+    width: 100%;
+    background-color: rgb(255,227,91);
+}
 
 #coin_list_title {
     font-size: 5vh;
-    text-align: center;
-    background-color: blueviolet;
+    color: #4b4218;
+    text-align: left;
+    margin-top: 5%;
+    padding-top: 3%;
+    padding-left: 3%;
 }
 
 #coin_list_container {
     width: 100%;
     height: 60vh;
-    padding: 5% 0;
+    margin-bottom: 5%;
     display: inline-flex;
     justify-content: space-around;
-    background-color: wheat;
+    color: #4b4218;
 }
 
 .coin_list_card {
     text-align: center;
     width: 30%;
-    background-color: aquamarine;
     display: inline-flexbox;
     justify-content: center;
 }
@@ -157,14 +195,15 @@ cursor: pointer;
 .coin_table_title {
     font-size: 3vh;
     height: 10%;
-    background-color: green;
-    padding: 2% 0;
+    border: 1vh solid #4b4218;
+    margin-bottom: 0; 
+    padding-top: 2vh   
 }
 
 .coin_list_table {
     width: 100%;
     height: 80%;
-    background-color: black
+
 }
 
 /* coin list의 table - th, td 적용 */
@@ -175,9 +214,9 @@ table {
 
 th {
     font-size: 2.5vh;
-    background-color: aqua;
-    border-bottom: 1px solid red;
-    border-right: 1px solid red;
+    background-color: #E7919f;
+    border-bottom: 1px solid #4b4218;
+    border-right: 1px solid #4b4218;
 }
 
 th:last-child {
@@ -185,7 +224,7 @@ th:last-child {
 }
 
 tr {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #4b4218;
 }
 
 tr:last-child{
@@ -195,8 +234,8 @@ tr:last-child{
 td {
     
     font-size: 2vh;
-    background-color: cornsilk;
-    border-right: 1px solid red;
+
+    border-right: 1px solid #4b4218;
 }
 
 td:last-child{
@@ -206,29 +245,34 @@ td:last-child{
 /* footer */
 
 footer {
-    font-family: 'Single Day', cursive;
+    font-family: 'Black Han Sans', sans-serif;
     display: inline-flex;
     justify-content: space-between;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
+    margin-top: 5%;
+    background-color: #447ab6;
     /*position: fixed;*/
     /*bottom: 0;*/
 }
 
 #footer_title {
-    border-right: 5px black solid;
-    font-size: 4vh;
-    width: 20%;
-    padding-top: 2%;
+    border-right: 5px #fbf3dd solid;
+    font-size: 5vh;
+
+    padding-top: 1.5%;
+    margin-left: 25%;
+    padding-right: 3%;
     text-align: center;
-    background-color: aqua;
+    color: #fbf3dd;
+
 }
 
 #footer_content {
-    padding: 2vh;
+    padding: 3vh;
     padding-left: 3vh;
+    margin-right: 40%;
     text-align: left;
     font-size: 2.5vh;
-    width: 80%;
-    background-color: aqua;
+    color: #fbf3dd;
 }
