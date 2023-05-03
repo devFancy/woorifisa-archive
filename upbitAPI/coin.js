@@ -347,6 +347,7 @@ const coinRoulette = async () => {
 const ccxt = require("ccxt");
 (async () => {
   const coins = await coinRoulette();
+  console.log(section1(coins));
   //기능 1 연결 부분
   // console.log(coins);
 
@@ -357,7 +358,10 @@ const ccxt = require("ccxt");
     let tmpVar = coins[i].market_name.split('-', 2);
     coins[i].market_name = tmpVar[1];
   }
-  console.log(coins);
+  // 출력
+  // console.log(coins);
+
+
  //coinTicker
 
   setInterval(() => {
@@ -388,16 +392,51 @@ const ccxt = require("ccxt");
         // console.log(tickerData.last);
 
         for (let i = 0; i < coins.length; i++) {
-          if(coins[i].market_name === tmpVar){
-              coins[i].push([cost:tickerData.last])
+          // console.log(typeof coins[i].market_name, typeof tmpVar[0]);
+      
+          if(coins[i].market_name === tmpVar[0]){
+              coins[i].cost = tickerData.last;
           }
           
         }
 
 
       } 
-      console.log(coins);
+      //출력
+      // console.log(coins);
+      console.log(section2(coins));
     })();
   }, 1000);
 })();
 
+const section1 = (coins) => {
+  let tmpArr = [];
+  for (let i = 0; i < 3; i++) {
+    let namePick = Math.floor(Math.random() * coins.length);
+    tmpArr.push(coins[namePick].korean_name)
+  }
+  return tmpArr;
+}
+
+const section2 = (coins, num) => {
+  
+  let tmpArr = [];
+  for (let i = 0; i < coins.length; i++) {
+    //반복문 시작할 때 배열 길이가 5이면 반환
+    if(tmpArr.length === 5){
+      return tmpArr;
+    }
+    //해당 숫자가 몇 번 반복되는지 확인
+    let cnt = 0;
+    if(num.toString() in coins[i].cost.toString()){
+      cnt++;
+      //num이 3번 나오면 배열에 추가 후 다음 요소로 넘어감
+      if(cnt === 3){
+        tmpArr.push([coins[i].korean_name, coins[i].cost])
+        break;
+      }
+    }
+    
+  }
+
+}
