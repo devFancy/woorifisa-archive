@@ -1,8 +1,8 @@
 const coinSlotMachineContent = document.getElementsByClassName(
-"coin_slot_machine_content"
+"coin_slot_machine_innerbox_content"
 );
 const coinSlotMachineButtonContent = document.getElementById(
-"coin_slot_machine_innerbox_content"
+"coin_slot_machine_button_content"
 );
 
 const openPopup = () => {
