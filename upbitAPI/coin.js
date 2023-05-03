@@ -404,7 +404,7 @@ const ccxt = require("ccxt");
       } 
       //출력
       // console.log(coins);
-      console.log(section2(coins));
+      console.log(section2(coins, '7'));
     })();
   }, 1000);
 })();
@@ -418,21 +418,26 @@ const section1 = (coins) => {
   return tmpArr;
 }
 
+//num string으로 받아야합니다.
 const section2 = (coins, num) => {
-  
+
   let tmpArr = [];
   for (let i = 0; i < coins.length; i++) {
     //반복문 시작할 때 배열 길이가 5이면 반환
     if(tmpArr.length === 5){
       return tmpArr;
     }
+    //cost String화
+    let tmpString = String(coins[i].cost);
     //해당 숫자가 몇 번 반복되는지 확인
     let cnt = 0;
-    if(num.toString() in coins[i].cost.toString()){
-      cnt++;
+    for(let j = 0; j < tmpString.length; j++){
+      if(num === tmpString[j]){
+        cnt++;
+      }
       //num이 3번 나오면 배열에 추가 후 다음 요소로 넘어감
-      if(cnt === 3){
-        tmpArr.push([coins[i].korean_name, coins[i].cost])
+      if(cnt >= 3){
+        tmpArr.push([coins[i].korean_name, coins[i].cost]);
         break;
       }
     }
