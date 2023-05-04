@@ -25,10 +25,16 @@ coinSlotMachineContainer.addEventListener("click", () => {
 
     if (
         coinSlotMachineContent[0].textContent ===
-        coinSlotMachineContent[1].textContent &&
+        coinSlotMachineContent[1].textContent
+        ||
         coinSlotMachineContent[1].textContent ===
         coinSlotMachineContent[2].textContent
+        ||
+        coinSlotMachineContent[0].textContent ===
+        coinSlotMachineContent[2].textContent
+
     ) {
+
         openPopup();
     }
     setTimeout(()=>{coinSlotMachineTop.style.transform = 'rotate(0deg)';}, "1000")
