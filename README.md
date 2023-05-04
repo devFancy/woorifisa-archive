@@ -6,11 +6,11 @@
 
 ## 서비스 소개 🪙
 
-<img width="1000" alt="completed" src="https://github.com/Fancy96/useless-coin-pick/blob/develop/img/completed.png">
+<img width="1000" alt="completed" src="https://github.com/Fancy96/useless-coin-pick/blob/develop/frontend/img/completed.png">
 
-<img width="1000" alt="completed_2" src="https://github.com/Fancy96/useless-coin-pick/blob/develop/img/completed_2.png">
+<img width="1000" alt="completed_2" src="https://github.com/Fancy96/useless-coin-pick/blob/develop/frontend/img/completed_2.png">
 
-![](/img/lighthouse.png)
+![](/frontend/img/lighthouse.png)
 
 * `업비트` Open API을 활용하여 코인 종목을 **랜덤**으로 뽑아서 `슬롯 머신`의 **잭팟**을 터트리는 서비스입니다.
 
