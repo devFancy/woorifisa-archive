@@ -101,7 +101,7 @@ const coinList = async ( coinMarketData, numString ) => {
     const coinPriceData = await coinPriceApi(coinMarketData[i].market_name);
     // 가져온 데이터에서 numString과 같은 경우에만 [시세 종목 한국명, 시세] 를 반환 받는다
     namePriceArr = coinMatching(coinMarketData, coinPriceData, numString);
-
+    
     // 받아온 데이터가 존재할 경우, 테이블의 행이 다 채워지지 않은 경우에만 화면에 보이는 테이블에 데이터를 적용한다
     if (namePriceArr !== undefined && listNum < 5) {
       renderTable(numString, listNum+1, namePriceArr);
