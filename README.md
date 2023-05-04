@@ -30,7 +30,7 @@
 
 ### FrontEnd & BackEnd & Infra
 
-![](/img/readme.jpeg)
+![](/frontend/img/tech_stack.jpeg)
 
 ## 팀원 소개 
 
