@@ -29,7 +29,7 @@ header {
     z-index: 999;
 }
 
-#header_title {
+#headerTitle {
     font-size: 10vh;
     padding-top: 2%;
     text-align: center;
@@ -38,7 +38,7 @@ header {
     /* -webkit-text-stroke: 2px grey; */
 }
 
-#header_bear_img {
+#headerBearImg {
     margin-top: 1%;
 }
 
@@ -52,13 +52,13 @@ main {
 }
 
 /* slot machine */
-#coin_slot_machine_wrap{
+#coinSlotMachineWrap{
     width: 100%;
     margin-top: 5%;
     background-color: rgb(255,227,91);
 }
 
-#coin_slot_machine_title_container {
+#coinSlotMachineTitleContainer {
     padding-top: 3%;
     padding-left: 3%;
     margin: 1% 0;
@@ -67,19 +67,19 @@ main {
 
 }
 
-#coin_slot_machine_title{
+#coinSlotMachineTitle{
     width: 100%;
     text-align:left;
     font-size: 5vh;
 }
 
-#coin_slot_machine_title_content{
+#coinSlotMachineTitleContent{
     width: 100%;
     text-align: left;
     font-size: 3vh;
 }
 
-#coin_slot_machine_container {
+#coinSlotMachineContainer {
     width: 100%;
     height: 60vh;
     display: inline-flex;
@@ -87,7 +87,7 @@ main {
 
 }
 
-#coin_slot_machine_outerbox {
+#coinSlotMachineOuterbox {
     width: 80%;
     height: 90%;
     margin-top:0;
@@ -98,7 +98,7 @@ main {
 
 }
 
-.coin_slot_machine_innerbox {
+.coin-slot-machine-innerbox {
     background-color: aliceblue;
     width: 30%;
     height: 50%;
@@ -114,13 +114,13 @@ main {
 
 }
 
-.coin_slot_machine_innerbox_content{
+.coin-slot-machine-innerbox-content{
     color: #4b4218;
 }
 
 /* coin_slot_machine_button */
 
-#coin_slot_machine_button_container {
+#coinSlotMachineButtonContainer {
 
 width: 15%;
 height: 90%;
@@ -162,12 +162,12 @@ cursor: pointer;
 
 
 /* coin list */
-#coin_list_wrap {
+#coinListWrap {
     width: 100%;
     background-color: rgb(255,227,91);
 }
 
-#coin_list_title {
+#coinListTitle {
     font-size: 5vh;
     color: #4b4218;
     text-align: left;
@@ -176,7 +176,7 @@ cursor: pointer;
     padding-left: 3%;
 }
 
-#coin_list_container {
+#coinListContainer {
     width: 100%;
     height: 60vh;
     margin-bottom: 5%;
@@ -185,14 +185,14 @@ cursor: pointer;
     color: #4b4218;
 }
 
-.coin_list_card {
+.coin-list-card {
     text-align: center;
     width: 30%;
     display: inline-flexbox;
     justify-content: center;
 }
 
-.coin_table_title {
+.coin-table-title {
     font-size: 3vh;
     height: 10%;
     border: 1vh solid #4b4218;
@@ -200,7 +200,7 @@ cursor: pointer;
     padding-top: 2vh   
 }
 
-.coin_list_table {
+.coin-list-table {
     width: 100%;
     height: 80%;
 
@@ -257,7 +257,7 @@ footer {
     /*bottom: 0;*/
 }
 
-#footer_title {
+#footerTitle {
     border-right: 5px #fbf3dd solid;
     font-size: 5vh;
 
@@ -269,7 +269,7 @@ footer {
 
 }
 
-#footer_content {
+#footerContent {
     padding: 3vh;
     padding-left: 3vh;
     margin-right: 40%;

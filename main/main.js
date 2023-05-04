@@ -1,8 +1,8 @@
 // 팝업창
 const coinSlotMachineContent = document.getElementsByClassName(
-"coin_slot_machine_innerbox_content" //aaa
+"coin-slot-machine-innerbox-content" //aaa
 );
-const coinSlotMachineContainer = document.getElementById("coin_slot_machine_button_container");
+const coinSlotMachineContainer = document.getElementById("coinSlotMachineButtonContainer");
 const coinSlotMachineTop = document.getElementById("top");
 const coinSlotMachineBall = document.getElementById("ball");
 const coinSlotMachineBottom = document.getElementById("bottom");
