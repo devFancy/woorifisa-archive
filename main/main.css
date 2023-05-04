@@ -153,9 +153,9 @@ cursor: pointer;
 #bottom {
     background-color: #4b4218;
     width: 5vh;
-    height: 15vh;
+    height: 18vh;
     position: absolute;
-    top: 40%;
+    top: 35%;
     border-radius: 10px;
 }
 
@@ -213,6 +213,7 @@ table {
 }
 
 th {
+    height: 10%;
     font-size: 2.5vh;
     background-color: #E7919f;
     border-bottom: 1px solid #4b4218;
@@ -232,7 +233,7 @@ tr:last-child{
 }
 
 td {
-    
+    height: auto;
     font-size: 2vh;
 
     border-right: 1px solid #4b4218;
