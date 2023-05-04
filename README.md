@@ -24,6 +24,44 @@
 
 2. 실시간으로 종목의 가격이 바뀌기 때문에, 그에 따라 리스트에 있는 종목명과 가격도 바뀌게 됩니다.
 
+## 기술스택 ⚙️
+
+### 1. FrontEnd
+
+#### Language
+* JavaScript
+
+<img src="https://user-images.githubusercontent.com/123453133/236110241-97c5471f-c94c-454a-af29-79ce66ef2394.png" alt="js" width="100" height="100">
+
+* HTML
+
+<img src="https://user-images.githubusercontent.com/123453133/236110663-8743d413-2ed9-4f46-b486-b95de82f9bd0.png" alt="html-5" width="100" height="100">
+
+* CSS
+
+<img src="https://user-images.githubusercontent.com/123453133/236110586-269126b4-e5f2-4ad8-a563-e237ffd6b923.png" alt="css-3" width="100" height="100">
+
+### 2. BackEnd
+
+#### Language
+* JavaScript
+
+<img src="https://user-images.githubusercontent.com/123453133/236110241-97c5471f-c94c-454a-af29-79ce66ef2394.png" alt="js" width="100" height="100">
+
+### 3. Infra
+
+#### Infra
+
+* Heroku
+
+<img src="https://user-images.githubusercontent.com/123453133/236110676-011d3caf-7474-422b-b553-236a3472875d.png" alt="heroku" width="100" height="100">
+
+#### CI/CD
+
+* Git
+
+<img src="https://user-images.githubusercontent.com/123453133/236111543-cc78162b-ef4b-4ab9-a519-21214a74413e.png" alt="git-logo" width="100" height="100">
+
 ## 팀원 소개 
 
 |                                         Frontend                                         |                                          Frontend                                          |                                          Backend                                           |                                         Backend                                         |
