@@ -10,6 +10,8 @@
 
 <img width="1000" alt="completed_2" src="https://github.com/Fancy96/useless-coin-pick/blob/develop/img/completed_2.png">
 
+<img width="1509" alt="스크린샷 2023-05-04 오전 9 58 24" src="https://user-images.githubusercontent.com/81675744/236117308-7da28ac3-1d8b-48ba-9c2a-e651577a388f.png">
+
 * `업비트` Open API을 활용하여 코인 종목을 **랜덤**으로 뽑아서 `슬롯 머신`의 **잭팟**을 터트리는 서비스입니다.
 
 ### 1. 코인 슬롯 머신 
