@@ -7,11 +7,8 @@ body {
     justify-content: center;
     flex-direction: column;
     background-color: #4eb7ac;
-    background-image: linear-gradient(bottom,#fbf3dd,transparent);
-    background-image: -moz-linear-gradient(bottom,#fbf3dd,transparent);
     background-image:-webkit-gradient(linear,0 0,100% 0%,color-stop(0.5,#fbf3dd),color-stop(0.5,transparent),to(transparent));
     background-size: 10% 10%;
-    -moz-background-size:10px 10px;
 }
 
 /* header */
@@ -22,10 +19,8 @@ header {
     display: inline-flex;
     justify-content: center;
     background-color: #447ab6;
-
     Position: sticky;
     top:0px;
-
     z-index: 999;
 }
 
@@ -35,7 +30,6 @@ header {
     text-align: center;
     margin-right: -30px;
     color: #fbf3dd;
-    /* -webkit-text-stroke: 2px grey; */
 }
 
 #headerBearImg {
@@ -103,15 +97,12 @@ main {
     width: 30%;
     height: 50%;
     margin: auto 0;
-
     font-size: 3.5vh;
     text-align: center;
     border: 5px solid #4b4218;
-
     display: inline-flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .coin-slot-machine-innerbox-content{
@@ -121,7 +112,6 @@ main {
 /* coin_slot_machine_button */
 
 #coinSlotMachineButtonContainer {
-
 width: 15%;
 height: 90%;
 margin-top:0;
@@ -188,8 +178,6 @@ cursor: pointer;
 .coin-list-card {
     text-align: center;
     width: 30%;
-    display: inline-flexbox;
-    justify-content: center;
 }
 
 .coin-table-title {
@@ -197,7 +185,7 @@ cursor: pointer;
     height: 10%;
     border: 1vh solid #4b4218;
     margin-bottom: 0; 
-    padding-top: 2vh   
+    padding-top: 2vh
 }
 
 .coin-list-table {
@@ -253,14 +241,11 @@ footer {
     margin: 0 auto;
     margin-top: 5%;
     background-color: #447ab6;
-    /*position: fixed;*/
-    /*bottom: 0;*/
 }
 
 #footerTitle {
     border-right: 5px #fbf3dd solid;
     font-size: 5vh;
-
     padding-top: 1.5%;
     margin-left: 25%;
     padding-right: 3%;
