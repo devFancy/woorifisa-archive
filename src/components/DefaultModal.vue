@@ -1,8 +1,8 @@
 <template>
     <Transition>
-        <div v-if="show === true">
+        <div v-if="show">
             <div
-                
+                @click="emit('close-modal')"
                 class="fixed top-0 left-0 w-full h-full backdrop-blur-md z-1"
                 data-cy="modal-backdrop"
                 ></div>

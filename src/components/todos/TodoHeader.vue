@@ -27,6 +27,8 @@ import TodoFilter from './TodoFilter.vue'
 import NewTodo from './NewTodo.vue';
 import { ref } from 'vue';
 
+// todoStore.filterTodo()
+
 const isModalOpen = ref(false); 
 
 const openModal = () => isModalOpen.value = true;
