@@ -6,8 +6,8 @@ import CounterSample from '../components/CounterSample.vue';
 const answerList = ['MPA: Multiple Page Application', 'SPA: Single Page Application'];
 </script>
 <template>
-  <ContentTitle title="QUIZ ANSWER" />
-  <QuestionBox title="MPA와 SPA는 무엇의 줄임말일까요?" :answers="answerList" />
+  <!--<ContentTitle title="QUIZ ANSWER" />
+  <QuestionBox title="MPA와 SPA는 무엇의 줄임말일까요?" :answers="answerList" />-->
 
   <ContentTitle mt="mt" title="SPA의 에러 - 404 NOT FOUND PAGE" />
   <ContentBox>
