@@ -3,8 +3,11 @@
 <template>
   <header>
     <h1>Why we use <span>Vue.js</span></h1>
-    <a href="/" download="why_we_learn_vue.js.pdf">
-      <font-awesome-icon icon="fa-solid fa-download" />
+    <a
+      href="https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar/blob/master/why_we_learn_vue.js.pdf?raw=True"
+      download="why_we_learn_vue.js.pdf"
+    >
+      <span> 📁 </span>
       <span>PDF DOWN</span>
     </a>
   </header>
@@ -31,6 +34,8 @@ a {
   gap: 5px;
 }
 a span {
+  width: 100%;
+  text-align: center;
   font-size: smaller;
 }
 </style>
