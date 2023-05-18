@@ -5,7 +5,7 @@
 </template>
 <style>
 .contents {
-  width: 70%;
+  width: 80%;
   line-height: 1.5;
   font-size: 18px;
   text-align: justify;
@@ -15,7 +15,7 @@
   color: #d41564;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1024px) {
   .contents {
     width: 100%;
   }

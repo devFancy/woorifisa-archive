@@ -38,6 +38,16 @@ const handleClickReload = () => {
     확인해볼 수 있습니다. 좋아요 버튼을 누르면서 Chrome 확장 프로그램인 Vue-dev-tool을 확인해보면
     실제로 데이터가 변경되고 있는 카운터 박스만 리렌더링 되는 것을 볼 수 있습니다.
   </ContentBox>
+  <br />
+  <p>
+    ✅ 만약 Chrome Vue-dev-tool이 없다면? ➡️
+    <a
+      class="down-link"
+      target="_blank"
+      href="https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd"
+      >Chrome Vue-dev-tool install</a
+    >
+  </p>
   <CounterSample />
 </template>
 
@@ -60,5 +70,12 @@ const handleClickReload = () => {
 .info {
   padding: 10px 0;
   text-align: center;
+}
+.down-link {
+  color: #2cd69d;
+  transition: all 0.5s;
+}
+.down-link:hover {
+  transform: scale(1.1);
 }
 </style>
