@@ -4,6 +4,10 @@ import ContentTitle from '../components/ContentTitle.vue';
 import ContentBox from '../components/ContentBox.vue';
 import CounterSample from '../components/CounterSample.vue';
 const answerList = ['MPA: Multiple Page Application', 'SPA: Single Page Application'];
+
+const handleClickReload = () => {
+  window.location.reload();
+};
 </script>
 <template>
   <!--<ContentTitle title="QUIZ ANSWER" />
@@ -23,7 +27,7 @@ const answerList = ['MPA: Multiple Page Application', 'SPA: Single Page Applicat
   </ContentBox>
 
   <ContentTitle mt="mt" title="지금 이 페이지를 새로고침 해보세요!" />
-  <button class="reload">
+  <button class="reload" @click="handleClickReload">
     <font-awesome-icon icon="fa-solid fa-rotate-right" />
   </button>
   <p class="info">새로고침 후엔 뒤로가기로 돌아와주세요 :)</p>
