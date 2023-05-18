@@ -24,6 +24,7 @@ nav {
   flex-direction: column;
   align-items: flex-start;
   border-right: 1px solid #fff;
+  /*border-right: 1px solid #2f2f2f;*/
 }
 ul {
   display: flex;
