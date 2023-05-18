@@ -6,7 +6,7 @@
       Why we use <span class="text-green-700 dark:text-vueGreen">Vue.js</span>
     </h1>
     <a
-      href="https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar/blob/master/why_we_learn_vue.js.pdf?raw=True"
+      href="https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar/blob/master/why_we_use_vue.pdf?raw=True"
       download="why_we_learn_vue.js.pdf"
     >
       <span> 📁 </span>
