@@ -3,7 +3,7 @@
 <template>
   <header>
     <h1>Why we use <span>Vue.js</span></h1>
-    <a href="/dist/assets/why_vue.pdf" download="why_we_learn_vue.js.pdf">
+    <a href="/" download="why_we_learn_vue.js.pdf">
       <font-awesome-icon icon="fa-solid fa-download" />
       <span>PDF DOWN</span>
     </a>

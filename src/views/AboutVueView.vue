@@ -19,36 +19,6 @@ import ContentBox from '../components/ContentBox.vue';
     해당 데이터들은 할당과 동시에 Oserve 기능이 활성화 되는데, 이는 실제 내부적으로는 Proxy 객체의
     getter/setter를 통해 데이터의 변조 및 접근시 작동되는 별도의 로직이 구현되어 있기 때문입니다.
   </ContentBox>
-  <!--<pre v-pre>
-    <code lang="javascript">
-      function reactive(obj) {
-  return new Proxy(obj, {
-    get(target, key) {
-      track(target, key)
-      return target[key]
-    },
-    set(target, key, value) {
-      target[key] = value
-      trigger(target, key)
-    }
-  })
-}
-
-function ref(value) {
-  const refObject = {
-    get value() {
-      track(refObject, 'value')
-      return value
-    },
-    set value(newValue) {
-      value = newValue
-      trigger(refObject, 'value')
-    }
-  }
-  return refObject
-}
- </code>
-  </pre>-->
 </template>
 
 <style scoped></style>
