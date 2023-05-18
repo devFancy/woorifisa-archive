@@ -18,8 +18,20 @@ const props = defineProps({
   <div>
     <h3>{{ title }}</h3>
     <div class="btn-box">
-      <a class="link-btn targetlink" :href="targetLink" alt="targetLink" target="_blank">Link</a>
-      <a class="link-btn gitlink" :href="gitLink" alt="gitLink" target="_blank">Git Source</a>
+      <a
+        class="link-btn targetlink border-[1px] hover:border-vueGreen border-black dark:border-white"
+        :href="targetLink"
+        alt="targetLink"
+        target="_blank"
+        >Link</a
+      >
+      <a
+        class="link-btn gitlink border-[1px] hover:border-vueGreen border-black dark:border-white"
+        :href="gitLink"
+        alt="gitLink"
+        target="_blank"
+        >Git Source</a
+      >
     </div>
   </div>
 </template>
@@ -37,13 +49,10 @@ h3 {
 .link-btn {
   padding: 10px;
   display: inline-block;
-  border: 1px solid #fff;
   border-radius: 10px;
   transition: all 0.5s;
 }
-
 .link-btn:hover {
   background: #2cd69d;
-  border: 1px solid #2cd69d;
 }
 </style>

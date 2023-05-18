@@ -8,9 +8,9 @@ const navList = [
 ];
 </script>
 <template>
-  <nav>
+  <nav class="border-r-[1px] border-black dark:border-white">
     <ul>
-      <li v-for="nav in navList" :key="nav.id">
+      <li v-for="nav in navList" :key="nav.id" class="{}">
         <router-link :to="nav.link">{{ nav.title }}</router-link>
       </li>
     </ul>
@@ -23,8 +23,6 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border-right: 1px solid #fff;
-  /*border-right: 1px solid #2f2f2f;*/
 }
 ul {
   display: flex;
@@ -42,6 +40,6 @@ li a {
   font-weight: 600;
 }
 .router-link-active {
-  color: #2cd69d;
+  @apply text-green-900 dark:text-[#2cd69d];
 }
 </style>

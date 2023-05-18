@@ -5,17 +5,13 @@
   font-weight: normal;
   font-style: normal;
 }
-
-* {
-  padding: 0;
-  margin: 0;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html,
 body {
   font-family: 'BMHANNAAir', sans-serif;
-  background-color: #2f2f2f;
-  color: #fff;
 }
 a {
   text-decoration: none;

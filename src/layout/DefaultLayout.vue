@@ -1,13 +1,13 @@
 <script setup></script>
 
 <template>
-  <main>
+  <article>
     <slot></slot>
-  </main>
+  </article>
 </template>
 
 <style scoped>
-main {
+article {
   display: flex;
 }
 </style>
