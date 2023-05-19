@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'BMHANNAAir';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff')
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css')
     format('woff');
   font-weight: normal;
   font-style: normal;
@@ -11,7 +11,7 @@
 
 html,
 body {
-  font-family: 'BMHANNAAir', sans-serif;
+  font-family: 'Pretendard', sans-serif;
 }
 a {
   text-decoration: none;

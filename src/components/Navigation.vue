@@ -1,10 +1,11 @@
 <script setup>
 const navList = [
   { id: 1, link: '/', title: 'Vanilla Javascript vs Vue.js' },
-  { id: 2, link: '/spampa', title: 'MPA & SPA' },
-  { id: 3, link: '/aboutVue', title: 'About Vue.js' },
-  { id: 4, link: '/conclusion', title: 'Conclusion' },
-  { id: 5, link: '/reference', title: 'Reference Link' },
+  { id: 2, link: '/webpage-and-frontend', title: '웹 페이지 개발과 프론트 개발' },
+  { id: 3, link: '/vue', title: 'Vue.js에 대하여' },
+  { id: 4, link: '/conclusion', title: '결론' },
+  { id: 5, link: '/others', title: '기타사항' },
+  { id: 6, link: '/reference', title: '참고문서'},
 ];
 </script>
 <template>
