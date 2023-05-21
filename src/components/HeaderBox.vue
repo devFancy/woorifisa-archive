@@ -1,9 +1,17 @@
-<script setup></script>
+<script setup>
+import { useChangeTheme } from '../stores/theme';
+import whiteLogo from '../assets/images/logo-white.png';
+import blackLogo from '../assets/images/logo-black.png';
+  const theme = useChangeTheme();
+
+
+  useChangeTheme
+</script>
 
 <template>
   <header class="border-b-[1px] border-black dark:border-white">
     <router-link to="/">
-      <img src="../assets/images/greenlight-low-resolution-logo-color-on-transparent-background.png" alt="logo" class="img-logo">
+      <img :src="theme.isDark ? whiteLogo : blackLogo" alt="logo" class="img-logo">
     </router-link>
     <h1 class="text-black dark:text-white">
       Why we use <span class="text-green-700 dark:text-vueGreen">Vue.js</span>

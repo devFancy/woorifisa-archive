@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import ContentTitle from '../components/ContentTitle.vue';
+import ContentBox from '../components/ContentBox.vue';
 </script>
 
 <template>
