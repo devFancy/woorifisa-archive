@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <article>
     <slot></slot>

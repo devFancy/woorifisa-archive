@@ -1,7 +1,5 @@
-<script setup></script>
-
 <template>
-  <section>
+  <section class="content-wrapper">
     <slot></slot>
   </section>
 </template>

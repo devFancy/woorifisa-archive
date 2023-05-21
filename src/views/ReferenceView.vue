@@ -1,7 +1,13 @@
 <script setup>
 const linkList = [
-  { title: 'Vue.js 공식문서(v3-docs, kr)', link: 'https://v3-docs.vuejs-korea.org/' },
-  { title: 'Vue.js란 무엇입니까?', link: 'https://appmaster.io/ko/blog/vuejsneun-mueosibnigga' },
+  {
+    title: 'Vue.js 공식문서(v3-docs, kr)',
+    link: 'https://v3-docs.vuejs-korea.org/',
+  },
+  {
+    title: 'Vue.js란 무엇입니까?',
+    link: 'https://appmaster.io/ko/blog/vuejsneun-mueosibnigga',
+  },
   {
     title: 'Vue.js 라우터 해시 모드, 히스토리 모드',
     link: 'https://router.vuejs.org/guide/essentials/history-mode.html',
@@ -41,15 +47,20 @@ const linkList = [
 ];
 </script>
 <template>
-  <ul>
-    <li v-for="(list, idx) in linkList" :key="idx">
-      <font-awesome-icon icon="fa-solid fa-link" />
-      <a :href="list.link" target="_black">{{ list.title }}</a>
-    </li>
-  </ul>
+  <div class="wrapper">
+    <ul>
+      <li v-for="(list, idx) in linkList" :key="idx">
+        <font-awesome-icon icon="fa-solid fa-link" />
+        <a :href="list.link" target="_black">{{ list.title }}</a>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <style scoped>
+.wrapper {
+  height: calc(100vh - 250px);
+}
 li + li {
   margin-top: 10px;
 }

@@ -1,9 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '../views/HomeView.vue';
-import WebDevAndFrontEndView from '../views/WebDevAndFrontEndView.vue';
-import VueView from '../views/VueView.vue';
-import ConclusionView from '../views/ConclusionView.vue';
-import ReferenceView from '../views/ReferenceView.vue';
+import HomeView from '@/views/HomeView.vue';
+import WebDevAndFrontEndView from '@/views/WebDevAndFrontEndView.vue';
+import VueView from '@/views/VueView.vue';
+import ConclusionView from '@/views/ConclusionView.vue';
+import ReferenceView from '@/views/ReferenceView.vue';
+import NotFound from '@/views/NotFound.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -30,12 +31,17 @@ const router = createRouter({
     },
     {
       path: '/others',
-      name: 'others'
+      name: 'others',
     },
     {
       path: '/reference',
       name: 'reference',
       component: ReferenceView,
+    },
+    {
+      path: '/*',
+      redirect: '/404',
+      component: NotFound,
     },
   ],
 });
