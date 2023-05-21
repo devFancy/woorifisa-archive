@@ -9,23 +9,20 @@ import ContentsLayout from './layout/ContentsLayout.vue';
 import { useChangeTheme } from './stores/theme.js';
 import { useResponsive } from './stores/windowSize.js';
 import { useOnMobileNav } from './stores/isMobileNav.js';
-import { onMounted } from 'vue';
 
 const themeStore = useChangeTheme();
 const responsive = useResponsive();
 const nav = useOnMobileNav();
 
-onMounted(() => {
-  window.addEventListener('resize', () => {
-    if (window.innerWidth < 1024) {
-      responsive.setMobile();
-    } else {
-      responsive.setPc();
-      if (nav.isMobileNav) {
-        nav.setNav();
-      }
+window.addEventListener('resize', () => {
+  if (window.innerWidth < 1024) {
+    responsive.setMobile();
+  } else {
+    responsive.setPc();
+    if (nav.isMobileNav) {
+      nav.setNav();
     }
-  });
+  }
 });
 </script>
 
