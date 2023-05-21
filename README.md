@@ -12,6 +12,6 @@
 
 ### :books: 학습 로그
 
-* [자바스크립트 기초(1) - 변수, 자료형, 연산자](https://fancy96.github.io/Javascript-1/)
-* [자바스크립트 기초(2) - 조건문, 반복문, 객체](https://fancy96.github.io/JavaScript-2/)
-* [[Vue.js] 1. 기본 템플릿 문법](https://fancy96.github.io/VueJs-1/)
+* [자바스크립트 기초(1) - 변수, 자료형, 연산자](https://devfancy.github.io/Javascript-1/)
+* [자바스크립트 기초(2) - 조건문, 반복문, 객체](https://devfancy.github.io/JavaScript-2/)
+* [[Vue.js] 1. 기본 템플릿 문법](https://devfancy.github.io/VueJs-1/)
