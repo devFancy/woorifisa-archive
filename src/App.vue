@@ -15,7 +15,7 @@ const responsive = useResponsive();
 const nav = useOnMobileNav();
 
 window.addEventListener('resize', () => {
-  if (window.innerWidth < 1024) {
+  if (window.innerWidth <= 1024) {
     responsive.setMobile();
   } else {
     responsive.setPc();
@@ -24,6 +24,7 @@ window.addEventListener('resize', () => {
     }
   }
 });
+window.innerWidth <= 1024 ? responsive.setMobile() : responsive.setPc();
 </script>
 
 <template>
