@@ -1,5 +1,10 @@
 <script setup>
+import NextChapter from '@/components/Button/NextChapter.vue';
 import ContentTitle from '@/components/Title/ContentTitle.vue';
+const link = {
+  url: '/reference',
+  title: '참고문서',
+};
 </script>
 
 <template>
@@ -16,6 +21,7 @@ import ContentTitle from '@/components/Title/ContentTitle.vue';
       </li>
     </ul>
   </div>
+  <NextChapter :link="link" />
 </template>
 
 <style scoped>
