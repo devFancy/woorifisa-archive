@@ -15,6 +15,61 @@ const handleClickReload = () => {
 <template>
   <!--<ContentTitle title="QUIZ ANSWER" />
   <QuestionBox title="MPA와 SPA는 무엇의 줄임말일까요?" :answers="answerList" />-->
+   
+  <ContentTitle mt="mt" title="전통적인 웹페이지 방식 - MPA" />
+  <ContentBox>
+    MPA는 Multiple Page 즉, <span>여러 개의 페이지</span>를 가집니다. 페이지별로 html 파일이 하나씩 생성
+    되는 vanilla javascript가 MPA방식의 예시라고 볼 수 있습니다.
+  </ContentBox>
+  
+  <ContentTitle mt="mt" title="MPA 렌더링 방식 - SSR(Server Side Rendering)" />
+  <ContentBox>
+    SSR은 Server Side Rendering 방식으로, server측에서 새로운 페이지를 렌더링 합니다.
+    클라이언트가 데이터 변경을 요청할 때마다, 서버가 변경이 적용된 새로운 페이지를 생성해 클라이언트에
+    응답하는 과정을 반복합니다.
+    그러나, 사소한 데이터 변경 요청에도 전체 페이지를 렌더링하는 과정을 서버측에서 부담하게 됩니다.
+    이는 <span>서버의 과부하</span>를 불러오고 <span>성능 저하를 일으키는 원인</span>이 될 수 있습니다.
+  </ContentBox>
+
+
+  <ContentTitle mt="mt" title="SPA 등장 배경 - MPA 문제점 해결" />
+  <ContentBox>
+    SPA는 Single Page. 즉, Multiple Page인 MPA와는 다르게 <span>하나의 페이지로 구성</span>된 Application입니다.
+    실제로 SPA방식을 사용한 사이트내에서 사용되는 정적 소스는 html,css,js 코드들이 각각 압축된 하나의 
+    파일로 보여집니다. SPA는 화면 렌더링에 필요한 이 압축된 정적 리소스들을 <span>최초 한 번만 다운로드</span>해서, 
+    특정 조건에 따라 원하는 컴포넌트들이 렌더링 됩니다.
+    이 과정이 추가적으로 새로운 페이지 요청 없이 일어나기 때문에 초기 로딩시 구현되는 <span>한페이지를 제외하고 
+    페이지 이동이 일어나지 않습니다.</span> 
+  </ContentBox>
+
+  <ContentTitle mt="mt" title="데이터 변경 방식 - MPA vs. SPA" />
+  <ContentBox>
+    데이터가 변경되면 html요소들도 변경되어야 합니다.
+    기존의 웹 애플리케이션 즉, MPA방식은 사소한 데이터 변경이 있더라도 DOM 전체를 조작해서 화면에
+    렌더링하는 방식이었습니다. 따라서, 웹 어플리케이션의 규모가 커질수록 DOM에 직접 접근하여
+    변화를 주는 과정은 성능 이슈가 발생할 가능성이 존재했습니다.
+    <br>
+    <img src="">
+    <br>
+    따라서 DOM을 더 효율적인 방법으로 업데이트하기 위해 고안된 것이 바로 <span>가상DOM</span>입니다.
+    SPA 방식의 Vue에서는 다음과 같은 방식으로 데이터를 변경합니다.
+    <br>
+    <ul>
+       1. 먼저, 가상DOM에 실제DOM에 변화가 일어났을 때의 상황을 시뮬레이션<br>
+       2. 데이터 변경 시뮬레이션이 적용된 가상DOM과 실제 DOM 비교 후 변경된 부분만 업데이트
+     </ul>
+     <br>
+    이렇게 <span>실제로 변경된 부분만을 편리하게 교체</span>할 수 있으므로, 경제적으로 렌더링 할 수 있습니다.
+  </ContentBox>
+
+  <ContentTitle mt="mt" title="SPA 동작원리 - 컴포넌트" />
+  <ContentBox>
+    컴포넌트는 화면을 구성하는 <span>블록 단위</span>입니다.
+    
+    Vue로 예를 들면, 'template' 태그 사이에 들어있는 HTML 코드들의 묶음입니다.
+    따라서 컴포넌트를 이용하면, DOM에서 변경 사항을 교체할 때 <span>블록 단위로 편리하게 교체</span>할 수 있습니다.
+    또한, 자주 사용하는 코드를 <span>재사용</span>할 수도 있습니다.
+  </ContentBox>
 
   <ContentTitle mt="mt" title="SPA의 에러 - 404 NOT FOUND PAGE" />
   <ContentBox>
