@@ -21,7 +21,7 @@ const handleClickReload = () => {
   <!--<ContentTitle title="QUIZ ANSWER" />
   <QuestionBox title="MPA와 SPA는 무엇의 줄임말일까요?" :answers="answerList" />-->
 
-  <ContentTitle mt="mt" title="전통적인 웹페이지 방식 - MPA" />
+  <ContentTitle title="전통적인 웹페이지 방식 - MPA" />
   <ContentBox>
     MPA는 Multiple Page 즉, <span>여러 개의 페이지</span>를 가집니다. 페이지별로
     html 파일이 하나씩 생성 되는 vanilla javascript가 MPA방식의 예시라고 볼 수

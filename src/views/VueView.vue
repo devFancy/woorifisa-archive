@@ -9,7 +9,7 @@ const link = {
 };
 </script>
 <template>
-  <ContentTitle mt="mt" title="Vue.js는 컴포넌트 기반의 아키텍처" />
+  <ContentTitle title="Vue.js는 컴포넌트 기반의 아키텍처" />
   <ContentBox>
     Vue.js는 <span>컴포넌트 기반의 아키텍처</span>를 가지고 있습니다. 컴포넌트의
     가장 근본적인 목적은 바로 재사용성 입니다.
