@@ -10,7 +10,7 @@ section {
   padding: 30px 50px;
   margin-left: 300px;
   border-left: 1px solid #000;
-  @apply dark:border-l-[1px] border-white;
+  @apply dark:border-white;
 }
 @media (max-width: 1024px) {
   section {
