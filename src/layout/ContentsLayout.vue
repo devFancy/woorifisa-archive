@@ -7,7 +7,7 @@
 <style scoped>
 section {
   width: 100%;
-  padding: 0 30px 50px;
+  padding: 30px 50px;
   margin-left: 300px;
   border-left: 1px solid #000;
   @apply dark:border-l-[1px] border-white;
