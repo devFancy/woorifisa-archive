@@ -31,12 +31,13 @@ const decreaseLiked = () => {
 <style scoped>
 .counter-box {
   margin: 20px 0;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.8);
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
+  @apply dark:bg-[rgba(0,0,0,0.2)];
 }
 .count-btn {
   padding: 10px;
@@ -61,5 +62,6 @@ const decreaseLiked = () => {
 }
 .count-num {
   font-size: 30px;
+  color: white;
 }
 </style>
