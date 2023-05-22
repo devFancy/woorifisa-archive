@@ -19,7 +19,6 @@ const handleSetNav = () => {
   width: 25px;
   height: 25px;
   position: relative;
-  z-index: 30;
 }
 .ham {
   position: absolute;
@@ -114,6 +113,13 @@ const handleSetNav = () => {
 @media (max-width: 1024px) {
   .btn-wrapper {
     display: block;
+  }
+  .ham.active {
+    position: fixed;
+    z-index: 50;
+    left: auto;
+    right: 20px;
+    top: 35px;
   }
 }
 </style>

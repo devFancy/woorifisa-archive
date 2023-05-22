@@ -3,12 +3,17 @@ import MobileNavButton from './Button/MobileNavButton.vue';
 import whiteLogo from '@/assets/images/logo-white.png';
 import blackLogo from '@/assets/images/logo-black.png';
 import { useChangeTheme } from '@/stores/theme';
+import { useOnMobileNav } from '@/stores/isMobileNav';
 
 const theme = useChangeTheme();
+const nav = useOnMobileNav();
 </script>
 
 <template>
-  <header class="border-b-[1px] border-black dark:border-white">
+  <header
+    class="border-b-[1px] border-black dark:border-white"
+    :class="{ static: nav.isMobileNav }"
+  >
     <router-link to="/">
       <img
         :src="theme.isDark ? whiteLogo : blackLogo"
@@ -63,6 +68,16 @@ a span {
 }
 
 @media (max-width: 1024px) {
+  header {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.6);
+    border: none;
+    z-index: 30;
+    @apply dark:bg-[rgba(0,0,0,0.6)];
+  }
+  header.static {
+    position: static;
+  }
   h1 {
     display: none;
   }

@@ -5,7 +5,8 @@ import { useResponsive } from '@/stores/windowSize';
 const nav = useOnMobileNav();
 const responsive = useResponsive();
 const navList = [
-  { id: 1, link: '/', title: 'Vanilla Javascript vs Vue.js' },
+  { id: 0, link: '/', title: 'Home' },
+  { id: 1, link: '/vanillaJSVue', title: 'Vanilla Javascript vs Vue.js' },
   { id: 2, link: '/webpage-and-frontend', title: '프론트개발의 변화' },
   { id: 3, link: '/vue', title: 'Vue.js에 대하여' },
   { id: 4, link: '/conclusion', title: '결론' },
@@ -16,11 +17,10 @@ const handleSetNav = () => {
   responsive.isMobile && nav.setNav();
 };
 </script>
+// class="border-r-[1px] border-black dark:border-white"
+
 <template>
-  <nav
-    :class="{ active: nav.isMobileNav }"
-    class="border-r-[1px] border-black dark:border-white"
-  >
+  <nav :class="{ active: nav.isMobileNav }">
     <ul>
       <li @click="handleSetNav" v-for="nav in navList" :key="nav.id">
         <router-link :to="nav.link">{{ nav.title }}</router-link>
@@ -31,15 +31,17 @@ const handleSetNav = () => {
 
 <style scoped>
 nav {
+  position: fixed;
   width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  border-radius: 0 20px 20px 0;
 }
 ul {
   display: flex;
   flex-direction: column;
-  padding: 50px 20px;
+  padding: 20px;
   gap: 30px;
 }
 li {

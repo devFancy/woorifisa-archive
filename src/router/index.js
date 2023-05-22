@@ -1,18 +1,26 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '@/views/HomeView.vue';
+import VanillaJSAndVue from '@/views/VanillaJSAndVue.vue';
 import WebDevAndFrontEndView from '@/views/WebDevAndFrontEndView.vue';
 import VueView from '@/views/VueView.vue';
 import ConclusionView from '@/views/ConclusionView.vue';
 import ReferenceView from '@/views/ReferenceView.vue';
-// import NotFound from '@/views/NotFound.vue';
 
 const router = createRouter({
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0 };
+  },
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
       name: 'home',
       component: HomeView,
+    },
+    {
+      path: '/vanillaJSVue',
+      name: 'vanillaJS&Vue',
+      component: VanillaJSAndVue,
     },
     {
       path: '/webpage-and-frontend',
@@ -38,11 +46,6 @@ const router = createRouter({
       name: 'reference',
       component: ReferenceView,
     },
-    // {
-    //   path: '/*',
-    //   redirect: '/404',
-    //   component: NotFound,
-    // },
   ],
 });
 
