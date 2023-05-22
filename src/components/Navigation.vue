@@ -9,7 +9,7 @@ const navList = [
   { id: 2, link: '/webpage-and-frontend', title: '프론트개발의 변화' },
   { id: 3, link: '/vue', title: 'Vue.js에 대하여' },
   { id: 4, link: '/conclusion', title: '결론' },
-  { id: 5, link: '/others', title: '기타사항' },
+  // { id: 5, link: '/others', title: '기타사항' },
   { id: 6, link: '/reference', title: '참고문서' },
 ];
 const handleSetNav = () => {

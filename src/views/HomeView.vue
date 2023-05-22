@@ -5,7 +5,29 @@ import LinkBox from '@/components/Container/LinkBox.vue';
 </script>
 
 <template>
-  <ContentTitle title="Vanilla Javascript? Vue.js?" />
+  <ContentTitle title="Vanilla Javascript란?" />
+  <ContentBox>
+    Vanilla Javascript 대 SPA Framework 입니다. 이 파트에서는 의문점을 한번
+    던져보려고 합니다. Vanilla Javascript로만 개발한 프로젝트와 SPA Framework로
+    개발한 프로젝트를 경험했을때 큰 차이가 있을까요? 우선 Vanilla Javascript라는
+    단어가 생소한 분들이 있으실 것 같아, 간략하게 설명해드리겠습니다. 소프트웨어
+    세계에서 Vanilla는 기본이라는 뜻을 가지고 있습니다. 그래서 Vanilla
+    Javascript는 순수한 자바스크립트로, 추가적인 프레임워크나 라이브러리를
+    사용하지 않은 것을 뜻합니다.
+  </ContentBox>
+
+  <ContentTitle mt="mt" title="Vue.js란?" />
+  <ContentBox>
+    Vue.js에 관해 간략히 말씀드리면, SPA 페이지로 프론트를 개발하기 위한
+    Javascript 기반의 프레임워크 입니다. HTML, CSS 그리고 Javascript 기반으로
+    구축할 수 있고, 컴포넌트 기반 프로그래밍 모델을 제공하고 있습니다. 이
+    Vue.js에 대해 우리의 친구 chatGPT는 어떻게 생각하고 있을지 궁금해서 한번
+    물어봤습니다. <span>쉽다, 강력하다, 유연하다 </span>라고 생각한다는데, 정말
+    Vue.js가 쉽고 강력하고 유연한지 알아보기 위해 동일한 프로젝트를 각각 Vanilla
+    Javascript와 Vue.js로 만들어서 단순 비교를 해봤습니다.
+  </ContentBox>
+
+  <ContentTitle mt="mt" title="Vanilla Javascript vs Vue.js" />
   <ContentBox>
     Vanilla Javascript로 만든 프로젝트와 Vue.js로 만든 프로젝트는 어떤 차이가
     있을까요? Vanilla Javascript로 만든 Todolist와 Vue.js로 만든 Todolist를 직접
@@ -41,6 +63,9 @@ import LinkBox from '@/components/Container/LinkBox.vue';
 </template>
 
 <style scoped>
+img {
+  fill: #fff;
+}
 .link-box {
   margin: 30px 0;
   display: flex;

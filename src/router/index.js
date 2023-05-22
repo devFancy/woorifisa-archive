@@ -4,7 +4,7 @@ import WebDevAndFrontEndView from '@/views/WebDevAndFrontEndView.vue';
 import VueView from '@/views/VueView.vue';
 import ConclusionView from '@/views/ConclusionView.vue';
 import ReferenceView from '@/views/ReferenceView.vue';
-import NotFound from '@/views/NotFound.vue';
+// import NotFound from '@/views/NotFound.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -29,20 +29,20 @@ const router = createRouter({
       name: 'conclusion',
       component: ConclusionView,
     },
-    {
-      path: '/others',
-      name: 'others',
-    },
+    // {
+    //   path: '/others',
+    //   name: 'others',
+    // },
     {
       path: '/reference',
       name: 'reference',
       component: ReferenceView,
     },
-    {
-      path: '/*',
-      redirect: '/404',
-      component: NotFound,
-    },
+    // {
+    //   path: '/*',
+    //   redirect: '/404',
+    //   component: NotFound,
+    // },
   ],
 });
 
