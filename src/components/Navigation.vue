@@ -32,6 +32,8 @@ const handleSetNav = () => {
 <style scoped>
 nav {
   position: fixed;
+  top: 120px;
+  bottom: 120px;
   width: fit-content;
   display: flex;
   flex-direction: column;
@@ -41,8 +43,7 @@ nav {
 ul {
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  gap: 30px;
+  padding: 10px 20px;
 }
 li {
   width: 100%;
