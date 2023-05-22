@@ -7,7 +7,7 @@ const props = defineProps({
 </script>
 <template>
   <button>
-    <router-link :to="link.url">Next Chapter: {{ link.title }} ➡️</router-link>
+    <router-link :to="link.url">Next Chapter: {{ link.title }}</router-link>
   </button>
 </template>
 
