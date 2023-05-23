@@ -4,6 +4,7 @@ import ContentTitle from '@/components/Title/ContentTitle.vue';
 import ContentBox from '@/components/Container/ContentBox.vue';
 import CounterSample from '@/components/CounterSample.vue';
 import NextChapter from '@/components/Button/NextChapter.vue';
+import Giscus from '@/components/Giscus.vue';
 const link = {
   before: '/vanillaJSVue',
   next: '/vue',
@@ -231,6 +232,7 @@ const handleClickReload = () => {
     ✅ 취업하고자 하는 회사의 스택 or 취향 ➡️ Vue.js / React
   </ContentBox>
   <NextChapter :link="link" />
+  <Giscus />
 </template>
 
 <style scoped>
