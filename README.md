@@ -1,5 +1,14 @@
 # Topic: 왜 우리는 Vue.js를 사용하는가?
 
+<div align="center">
+
+  <img src="src/assets/images/logo-color.png" width="350"/>
+
+</div>
+
+![screenshot](src/assets/screenshot.png)
+
+
 ## Target
 
 - Vue or React와 같은 **개발 툴을 사용하는 이유**가 궁금한 개발자
@@ -36,6 +45,14 @@
 - Vue.js
 
 - Tailwind CSS
+
+- Pinia
+
+## Functions
+
+- 라이트/다크 모드
+
+- 반응형 (모바일 버전 호환)
 
 ### Recommended IDE Setup
 
