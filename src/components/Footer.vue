@@ -7,7 +7,12 @@
       target="_blank"
       class="git"
     ></a>
-    <!-- <a href="" download class="download">PDF DOWN ⬇️</a> -->
+    <a
+      href="https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar/blob/master/why-we-use-vue.pdf?raw=True"
+      download
+      class="download"
+      >PDF DOWN ⬇️</a
+    >
   </footer>
 </template>
 <style scoped>
