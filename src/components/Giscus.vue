@@ -1,25 +1,31 @@
 <script setup>
 import { useChangeTheme } from '@/stores/theme';
-import Giscus from '@giscus/vue';
+import { onMounted, ref } from 'vue';
 const theme = useChangeTheme();
+
+const mounted = ref(false);
+onMounted(() => {
+  mounted.value = true;
+  import('giscus');
+});
 </script>
 
 <template>
   <div class="giscus-wrap">
-    <Giscus
+    <giscus-widget
+      v-if="mounted"
       id="comments"
       repo="Jiyun-Parkk/woorifisa-fe-tech-seminar"
-      repo-id="R_kgDOJkcZtQ"
+      repoid="R_kgDOJkcZtQ"
       category="General"
-      category-id="DIC_kwDOJkcZtc4CWrIX"
-      mapping="title"
+      categoryid="DIC_kwDOJkcZtc4CWrIX"
+      mapping="pathname"
       strict="0"
-      reactions-enabled="1"
-      emit-metadata="0"
-      input-position="top"
+      reactionsenabled="1"
+      emitmetadata="0"
+      inputposition="top"
       :theme="theme.isDark ? 'dark' : 'light'"
       lang="ko"
-      loading="lazy"
     />
   </div>
 </template>

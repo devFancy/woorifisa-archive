@@ -1,6 +1,7 @@
 <script setup>
 import NextChapter from '@/components/Button/NextChapter.vue';
 import ContentTitle from '@/components/Title/ContentTitle.vue';
+import Giscus from '@/components/Giscus.vue';
 const link = {
   before: '/vue',
   next: '/reference',
@@ -20,6 +21,7 @@ const link = {
     </li>
   </ul>
   <NextChapter :link="link" />
+  <Giscus />
 </template>
 
 <style scoped>

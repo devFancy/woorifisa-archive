@@ -4,7 +4,7 @@ import Giscus from '@/components/Giscus.vue';
 <template>
   <section class="content-wrapper">
     <slot></slot>
-    <Giscus />
+    <!-- <Giscus /> -->
   </section>
 </template>
 

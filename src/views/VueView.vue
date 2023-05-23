@@ -3,6 +3,7 @@ import ContentTitle from '@/components/Title/ContentTitle.vue';
 import ContentBox from '@/components/Container/ContentBox.vue';
 import ImageBox from '@/components/Container/ImageBox.vue';
 import NextChapter from '@/components/Button/NextChapter.vue';
+import Giscus from '@/components/Giscus.vue';
 const link = {
   before: '/webpage-and-frontend',
   next: '/conclusion',
@@ -121,6 +122,7 @@ const link = {
   </ContentBox>
   <ImageBox src="refusage.png" />
   <NextChapter :link="link" />
+  <Giscus />
 </template>
 
 <style scoped>
