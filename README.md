@@ -1,4 +1,5 @@
 # Topic: 왜 우리는 Vue.js를 사용하는가?
+<center><img src="https://github.com/yj5768/practice/assets/119517146/b611ed33-56cd-4686-8b65-22f41ec3565c" /></center>
 
 <div align="center">
 
@@ -23,7 +24,7 @@
 - `목차`는 다음과 같습니다.
 
   - [1] Vanilla JavaScript vs SPA Framework
-
+==-
   - [2] 웹 페이지 개발과 프론트 개발
 
   - [3] Vue.js에 대하여
