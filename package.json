@@ -11,8 +11,7 @@
     "@giscus/vue": "^2.2.8",
     "pinia": "^2.0.36",
     "vue": "^3.3.2",
-    "vue-router": "^4.2.0",
-    "vuetify": "^2.6.15"
+    "vue-router": "^4.2.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
