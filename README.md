@@ -1,8 +1,8 @@
 # Topic: 왜 우리는 Vue.js를 사용하는가?
 
 <div align="center" >
-  <img src="src/assets/images/logo-color.png" width="150" style="border-radius:50%"/>
-
+  <img src="src/assets/images/logo-color.png" width="150" />
+  
 [![LICENSE](https://img.shields.io/dub/l/vibe-d.svg?style=flat-square)](https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar/blob/master/LICENSE)
 
 </div>
@@ -22,7 +22,7 @@ npm run dev
 <br/>
 <br/>
 
-![screenshot](src/assets/screenshot.png)
+![screenshot](src/assets/images/screenshot.jpeg)
 
 ## Target
 
