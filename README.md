@@ -1,21 +1,36 @@
 # Topic: 왜 우리는 Vue.js를 사용하는가?
-<center><img src="https://github.com/yj5768/practice/assets/119517146/b611ed33-56cd-4686-8b65-22f41ec3565c" /></center>
 
-<div align="center">
+<div align="center" >
+  <img src="src/assets/images/logo-color.png" width="150" style="border-radius:50%"/>
 
-  <img src="src/assets/images/logo-color.png" width="350"/>
+[![LICENSE](https://img.shields.io/dub/l/vibe-d.svg?style=flat-square)](https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar/blob/master/LICENSE)
 
 </div>
+
+### Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+<br/>
+<br/>
 
 ![screenshot](src/assets/screenshot.png)
 
 ## Target
 
-- Vue or React와 같은 **개발 툴을 사용하는 이유**가 궁금한 개발자
+- 💡 Vue or React와 같은 **개발 툴을 사용하는 이유**가 궁금한 개발자
 
-- SPA를 어디서 들어봤지만, **명확한 의미**를 모르는 프론트 개발자
+- 💡 SPA를 어디서 들어봤지만, **명확한 의미**를 모르는 프론트 개발자
 
-- 프론트엔드 프레임워크 **원리**가 궁금한 백엔드 개발자
+- 💡 프론트엔드 프레임워크 **원리**가 궁금한 백엔드 개발자
 
 ## Contents
 
@@ -24,7 +39,7 @@
 - `목차`는 다음과 같습니다.
 
   - [1] Vanilla JavaScript vs SPA Framework
-==-
+
   - [2] 웹 페이지 개발과 프론트 개발
 
   - [3] Vue.js에 대하여
@@ -40,13 +55,12 @@
 
 ### Key Languages and Tech stack
 
-- HTML, CSS, JavaScript
-
-- Vue.js
-
-- Tailwind CSS
-
-- Pinia
+ <img src="https://img.shields.io/badge/HTML5-E34F26"/>
+ <img src="https://img.shields.io/badge/CSS-1572B6" />
+ <img src="https://img.shields.io/badge/Javascript-F7DF1E" />
+ <img src="https://img.shields.io/badge/Vue-4FC08D" />
+ <img src="https://img.shields.io/badge/Tailwind CSS-0DA6E9" />
+ <img src="https://img.shields.io/badge/Pinia-rgb(255,227,105)" />
 
 ## Functions
 
@@ -62,16 +76,6 @@
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-### Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
+## Why we use vue.js tech blog
 
 <center><img src="https://github.com/yj5768/practice/assets/119517146/b611ed33-56cd-4686-8b65-22f41ec3565c" /></center>
