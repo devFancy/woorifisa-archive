@@ -3,8 +3,7 @@ import ContentBox from '@/components/Container/ContentBox.vue';
 import ContentTitle from '@/components/Title/ContentTitle.vue';
 import NextChapter from '@/components/Button/NextChapter.vue';
 const link = {
-  url: '/vanillaJSVue',
-  title: 'Vanilla Javascript vs Vue.js',
+  next: '/vanillaJSVue',
 };
 </script>
 <template>

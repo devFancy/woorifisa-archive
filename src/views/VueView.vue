@@ -4,8 +4,8 @@ import ContentBox from '@/components/Container/ContentBox.vue';
 import ImageBox from '@/components/Container/ImageBox.vue';
 import NextChapter from '@/components/Button/NextChapter.vue';
 const link = {
-  url: '/conclusion',
-  title: '왜 우리는 Vue를 사용하는가? 결론',
+  before: '/webpage-and-frontend',
+  next: '/conclusion',
 };
 </script>
 <template>

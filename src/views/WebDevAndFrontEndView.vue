@@ -5,8 +5,8 @@ import ContentBox from '@/components/Container/ContentBox.vue';
 import CounterSample from '@/components/CounterSample.vue';
 import NextChapter from '@/components/Button/NextChapter.vue';
 const link = {
-  url: '/vue',
-  title: 'Vue에 대하여',
+  before: '/vanillaJSVue',
+  next: '/vue',
 };
 const answerList = [
   'MPA: Multiple Page Application',

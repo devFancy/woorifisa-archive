@@ -2,8 +2,8 @@
 import NextChapter from '@/components/Button/NextChapter.vue';
 import ContentTitle from '@/components/Title/ContentTitle.vue';
 const link = {
-  url: '/reference',
-  title: '참고문서',
+  before: '/vue',
+  next: '/reference',
 };
 </script>
 

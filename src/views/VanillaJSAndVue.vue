@@ -4,8 +4,8 @@ import ContentBox from '@/components/Container/ContentBox.vue';
 import LinkBox from '@/components/Container/LinkBox.vue';
 import NextChapter from '@/components/Button/NextChapter.vue';
 const link = {
-  url: '/webpage-and-frontend',
-  title: '프론트개발의 변화',
+  before: '/',
+  next: '/webpage-and-frontend',
 };
 </script>
 
