@@ -8,7 +8,6 @@
 
 ![screenshot](src/assets/screenshot.png)
 
-
 ## Target
 
 - Vue or React와 같은 **개발 툴을 사용하는 이유**가 궁금한 개발자
@@ -73,3 +72,5 @@ npm install
 ```sh
 npm run dev
 ```
+
+<center><img src="https://github.com/yj5768/practice/assets/119517146/b611ed33-56cd-4686-8b65-22f41ec3565c" /></center>
