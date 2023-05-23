@@ -38,7 +38,6 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border-radius: 0 20px 20px 0;
 }
 ul {
   display: flex;
