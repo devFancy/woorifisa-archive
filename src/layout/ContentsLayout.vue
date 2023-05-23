@@ -1,10 +1,7 @@
-<script setup>
-import Giscus from '@/components/Giscus.vue';
-</script>
+<script setup></script>
 <template>
   <section class="content-wrapper">
     <slot></slot>
-    <!-- <Giscus /> -->
   </section>
 </template>
 

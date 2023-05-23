@@ -1,7 +1,9 @@
 <script setup>
 import { useChangeTheme } from '@/stores/theme';
+import { useResponsive } from '@/stores/windowSize';
 import { onMounted, ref } from 'vue';
 const theme = useChangeTheme();
+const responsive = useResponsive();
 
 const mounted = ref(false);
 onMounted(() => {
@@ -11,7 +13,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="giscus-wrap">
+  <div class="giscus-wrap" v-if="!responsive.isMobile">
     <giscus-widget
       v-if="mounted"
       id="comments"
