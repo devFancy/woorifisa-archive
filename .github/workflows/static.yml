@@ -28,6 +28,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/labeler@v4
+        with:
+          repo-token: ${{ secrets.WYE_WE_USE_VUE }}
       - name: Checkout
         uses: actions/checkout@v3
       - name: Set up Node
