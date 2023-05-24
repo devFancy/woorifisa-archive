@@ -108,7 +108,7 @@ const link = {
     추가적으로 변경된 데이터를 바로 View에 적용시켜주는 코드를 넣어줘야 합니다.
   </ContentBox>
 
-  <video src="../assets/video/countsample5.mp4" autoplay controls />
+  <video src="../assets/video/countsample5.mp4" controls />
 
   <ContentBox mt>
     Vue에서는 이런 추가적인 작업을 해주지 않아도 Javascript의 데이터를
