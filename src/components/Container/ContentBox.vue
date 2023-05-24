@@ -1,22 +1,35 @@
+<script setup>
+const props = defineProps({
+  mt: Boolean,
+  mb: Boolean,
+});
+</script>
+
 <template>
-  <p class="contents">
+  <p :class="{ mt, mb }" class="text-content">
     <slot></slot>
   </p>
 </template>
 <style>
-.contents {
+.text-content {
   width: 80%;
   line-height: 1.5;
   font-size: 18px;
   text-align: justify;
   word-break: break-all;
 }
-.contents span {
+.text-content.mt {
+  margin-top: 20px;
+}
+.text-content.mb {
+  margin-bottom: 20px;
+}
+.text-content span {
   color: #d41564;
 }
 
 @media (max-width: 1024px) {
-  .contents {
+  .text-content {
     width: 100%;
   }
 }
