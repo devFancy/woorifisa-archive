@@ -2,17 +2,21 @@
   <footer class="border-t-[1px] border-black dark:border-white">
     <p>우리FISA 프론트엔드 기술 세미나</p>
     <p>Copyright @ 2023 그린라이트 - All rights reserved.</p>
-    <a
-      href="https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar"
-      target="_blank"
-      class="git"
-    ></a>
-    <a
-      href="https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar/blob/master/why-we-use-vue.pdf?raw=True"
-      download
-      class="download"
-      >PDF DOWN ⬇️</a
-    >
+    <div class="btn-wrap">
+      <a
+        href="https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar"
+        target="_blank"
+        class="git"
+      ></a>
+      <a
+        href="https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar/blob/master/why-we-use-vue.pdf?raw=True"
+        download
+        class="download"
+      >
+        <span>PDF</span>
+        <font-awesome-icon icon="fa-solid fa-download" />
+      </a>
+    </div>
   </footer>
 </template>
 <style scoped>
@@ -22,6 +26,16 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.btn-wrap {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
 .git {
   padding: 20px 0;
   display: block;
@@ -30,7 +44,11 @@ footer {
   background: url('../assets/images/github_black.svg') no-repeat center;
   @apply dark:bg-[url('../assets/images/github_white.svg')] bg-no-repeat bg-center;
 }
-p {
-  text-align: center;
+.download {
+  display: flex;
+  flex-direction: column;
+}
+.download span {
+  font-size: 0.8rem;
 }
 </style>
