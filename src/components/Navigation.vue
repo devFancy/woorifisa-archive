@@ -17,7 +17,6 @@ const handleSetNav = () => {
   responsive.isMobile && nav.setNav();
 };
 </script>
-// class="border-r-[1px] border-black dark:border-white"
 
 <template>
   <nav :class="{ active: nav.isMobileNav }">
