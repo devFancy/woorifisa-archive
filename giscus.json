@@ -1,4 +1,7 @@
 {
-  "origins": ["http://woorifisa-greenlight.info"],
+  "origins": [
+    "https://jiyun-parkk.github.io",
+    "http://woorifisa-greenlight.info"
+  ],
   "originsRegex": ["http://localhost:[0-9]+"]
 }
