@@ -34,21 +34,16 @@ npm run dev
 
 ## Contents
 
-- WOORI FISA에서 진행한 프론트엔드 기술 세미나에서 `Vue.js` 키워드를 중심으로 해당 주제를 선정하게 되었습니다.
+WOORI FISA에서 진행한 프론트엔드 기술 세미나에서 `Vue.js` 키워드를 중심으로 해당 주제를 선정하게 되었습니다.
 
-- `목차`는 다음과 같습니다.
+`목차`는 다음과 같습니다.
 
-  - [1] [Home](https://woorifisa-greenlight.info/)
-
-  - [2] [Vanilla Javascript vs Vue.js](https://woorifisa-greenlight.info/vanillaJSVue)
-
-  - [3] [프론트개발의 변화](https://woorifisa-greenlight.info/webpage-and-frontend)
-
-  - [4] [Vue.js에 대하여](https://woorifisa-greenlight.info/vue)
-
-  - [5] [결론](https://woorifisa-greenlight.info/conclusion)
-
-  - [6] [참고문서](https://woorifisa-greenlight.info/reference)
+1. Home
+2. Vanilla Javascript vs Vue.js
+3. 프론트개발의 변화
+4. Vue.js에 대하여
+5. 결론
+6. 참고문서
 
 ## Team-Member
 
