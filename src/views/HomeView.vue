@@ -2,6 +2,7 @@
 import ContentBox from '@/components/Container/ContentBox.vue';
 import ContentTitle from '@/components/Title/ContentTitle.vue';
 import NextChapter from '@/components/Button/NextChapter.vue';
+import Giscus from '@/components/Giscus.vue';
 const link = {
   next: '/vanillaJSVue',
 };
@@ -27,6 +28,7 @@ const link = {
       <li>✅ 프론트엔드 프레임워크 원리가 궁금한 백엔드 개발자</li>
     </ul>
     <NextChapter :link="link" />
+    <Giscus />
   </div>
 </template>
 
