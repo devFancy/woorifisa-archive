@@ -3,7 +3,6 @@ import ContentTitle from '@/components/Title/ContentTitle.vue';
 import ContentBox from '@/components/Container/ContentBox.vue';
 import ImageBox from '@/components/Container/ImageBox.vue';
 import NextChapter from '@/components/Button/NextChapter.vue';
-import Giscus from '@/components/Giscus.vue';
 const link = {
   before: '/webpage-and-frontend',
   next: '/conclusion',
@@ -168,7 +167,6 @@ const link = {
     <span>왜 우리는 Vue를 사용하는가?</span>에 대한 답을 함께 정리해봅시다!
   </ContentBox>
   <NextChapter :link="link" />
-  <Giscus />
 </template>
 
 <style scoped>

@@ -3,7 +3,6 @@ import ContentTitle from '@/components/Title/ContentTitle.vue';
 import ContentBox from '@/components/Container/ContentBox.vue';
 import LinkBox from '@/components/Container/LinkBox.vue';
 import NextChapter from '@/components/Button/NextChapter.vue';
-import Giscus from '@/components/Giscus.vue';
 const link = {
   before: '/',
   next: '/webpage-and-frontend',
@@ -69,7 +68,6 @@ const link = {
     그렇게 된 과정에 대해 다음 챕터부터 함께 알아가보려 합니다!
   </ContentBox>
   <NextChapter :link="link" />
-  <Giscus />
 </template>
 
 <style scoped>

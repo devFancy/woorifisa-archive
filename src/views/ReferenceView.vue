@@ -47,20 +47,15 @@ const linkList = [
 ];
 </script>
 <template>
-  <div class="wrapper">
-    <ul>
-      <li v-for="(list, idx) in linkList" :key="idx">
-        <font-awesome-icon icon="fa-solid fa-link" />
-        <a :href="list.link" target="_black">{{ list.title }}</a>
-      </li>
-    </ul>
-  </div>
+  <ul>
+    <li v-for="(list, idx) in linkList" :key="idx">
+      <font-awesome-icon icon="fa-solid fa-link" />
+      <a :href="list.link" target="_black">{{ list.title }}</a>
+    </li>
+  </ul>
 </template>
 
 <style scoped>
-.wrapper {
-  height: 100vh;
-}
 li + li {
   margin-top: 10px;
 }
