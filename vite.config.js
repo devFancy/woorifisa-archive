@@ -12,5 +12,5 @@ export default defineConfig({
     },
     extensions: ['.js', '.vue'],
   },
-  // base: '/woorifisa-fe-tech-seminar/',
+  base: '/woorifisa-fe-tech-seminar/',
 });

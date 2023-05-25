@@ -14,7 +14,6 @@
         class="download"
       >
         <span>PDF</span>
-        <font-awesome-icon icon="fa-solid fa-download" />
       </a>
     </div>
   </footer>
