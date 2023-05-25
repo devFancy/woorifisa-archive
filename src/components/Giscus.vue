@@ -17,11 +17,11 @@ onMounted(() => {
     <giscus-widget
       v-if="mounted"
       id="comments"
-      repo="Jiyun-Parkk/woorifisa-fe-tech-seminar"
+      repo="jiyun-Parkk/woorifisa-fe-tech-seminar"
       repoid="R_kgDOJkcZtQ"
       category="General"
       categoryid="DIC_kwDOJkcZtc4CWrIX"
-      mapping="title"
+      mapping="pathname"
       strict="0"
       reactionsenabled="1"
       emitmetadata="0"
