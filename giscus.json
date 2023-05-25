@@ -1,4 +1,4 @@
 {
-  "origins": ["http://jiyun-parkk.github.io"],
+  "origins": ["https://jiyun-parkk.github.io"],
   "originsRegex": ["http://localhost:[0-9]+"]
 }
