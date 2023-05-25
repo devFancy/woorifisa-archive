@@ -1,4 +1,4 @@
-# Topic: 왜 우리는 Vue.js를 사용하는가?
+# Topic: Why we use Vue.js
 
 <div align="center" >
   <img src="src/assets/images/logo-color.png" width="150" />
@@ -10,7 +10,7 @@
 ### Project Setup
 
 ```sh
-npm install
+npm install //node -v >= 18, npm -v >= 9.3
 ```
 
 ### Compile and Hot-Reload for Development
@@ -30,7 +30,7 @@ npm run dev
 
 - 💡 SPA를 어디서 들어봤지만, **명확한 의미**를 모르는 프론트 개발자
 
-- 💡 프론트엔드 프레임워크 **원리**가 궁금한 백엔드 개발자
+- 💡 프론트엔드 **프레임워크 원리**가 궁금한 백엔드 개발자
 
 ## Contents
 
@@ -38,28 +38,29 @@ npm run dev
 
 - `목차`는 다음과 같습니다.
 
-  - [1] Vanilla JavaScript vs SPA Framework
+  - [1] [Home](https://woorifisa-greenlight.info/)
 
-  - [2] 웹 페이지 개발과 프론트 개발
+  - [2] [Vanilla Javascript vs Vue.js](https://woorifisa-greenlight.info/vanillaJSVue)
 
-  - [3] Vue.js에 대하여
+  - [3] [프론트개발의 변화](https://woorifisa-greenlight.info/webpage-and-frontend)
 
-  - [4] 기타사항
+  - [4] [Vue.js에 대하여](https://woorifisa-greenlight.info/vue)
+
+  - [5] [결론](https://woorifisa-greenlight.info/conclusion)
+
+  - [6] [참고문서](https://woorifisa-greenlight.info/reference)
 
 ## Team-Member
 
 |                                        Developer                                         |                                         Developer                                         |                                        Developer                                         |                                        Developer                                         |
 | :--------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
 | <img src="https://avatars.githubusercontent.com/u/72537762?v=4" width=400px alt="지윤"/> | <img src="https://avatars.githubusercontent.com/u/119517146?v=4" width=400px alt="예지"/> | <img src="https://avatars.githubusercontent.com/u/93786956?v=4" width=400px alt="수현"/> | <img src="https://avatars.githubusercontent.com/u/83820185?v=4" width=400px alt="준용"/> |
-|                          [지윤](https://github.com/Jiyun-Parkk)                          |                             [예지](https://github.com/yj5768)                             |                            [수현](https://github.com/ooutta)                             |                            [준용](https://github.com/Fancy96)                            |
+|                          [지윤](https://github.com/Jiyun-Parkk)                          |                             [예지](https://github.com/yj5768)                             |                            [수현](https://github.com/ooutta)                             |                            [준용](https://github.com/devfancy)                            |
 
 ### Key Languages and Tech stack
 
- <img src="https://img.shields.io/badge/HTML5-E34F26"/>
- <img src="https://img.shields.io/badge/CSS-1572B6" />
- <img src="https://img.shields.io/badge/Javascript-F7DF1E" />
- <img src="https://img.shields.io/badge/Vue-4FC08D" />
- <img src="https://img.shields.io/badge/Tailwind CSS-0DA6E9" />
+ <img src="https://img.shields.io/badge/HTML5-E34F26"/> <img src="https://img.shields.io/badge/CSS-1572B6" /> <img src="https://img.shields.io/badge/Javascript-F7DF1E" />
+ <img src="https://img.shields.io/badge/Vue-4FC08D" /> <img src="https://img.shields.io/badge/Tailwind CSS-0DA6E9" />
  <img src="https://img.shields.io/badge/Pinia-rgb(255,227,105)" />
 
 ## Functions
@@ -67,6 +68,8 @@ npm run dev
 - 라이트/다크 모드
 
 - 반응형 (모바일 버전 호환)
+
+- 댓글(giscus)
 
 ### Recommended IDE Setup
 
