@@ -1,4 +1,3 @@
 {
-  "origins": ["https://woorifisa-greenlight.info"],
-  "originsRegex": ["http://localhost:[0-9]+"]
+  "origins": ["https://woorifisa-greenlight.info"]
 }
