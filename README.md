@@ -7,7 +7,7 @@
 |Project|Repository|
 |-|-|
 |우리FIS 주변의 다양한 편의시설 소개(html, css)|[moamoa](https://github.com/Fancy96/moamoa)|
-|코인 슬롯 머신 게임(javascript)|[useless-coin-pick](https://github.com/Fancy96/useless-coin-pick)|
+|코인 슬롯 머신 게임(javascript)|[CoinPick](https://github.com/devFancy/CoinPick)|
 |기술 세미나 - 왜 우리는 Vue.js를 사용하는가?(Vue.js)|[woorifisa-fe-tech-seminar](https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar)|
 
 ### :books: 학습 로그
