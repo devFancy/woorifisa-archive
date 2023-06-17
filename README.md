@@ -46,13 +46,14 @@
 
 ### 학습 기록
 
-| No  |              Name               |                        Repository                        |         Period          |
-| :-: | :-----------------------------: | :------------------------------------------------------: | :---------------------: |
-|  1  |      회식 메뉴 추천(java)       |  [java-dinner](https://github.com/devFancy/java-dinner)  | 2023.05.29 ~ 2023.05.30 |
-|  2  | 입출금 내역 분석 프로그램(java) |    [java-book](https://github.com/devFancy/java-book)    |       2023.06.05        |
-|  3  |    티켓 발행 프로그램(java)     | [java-pattern](https://github.com/devFancy/java-pattern) |       2023.06.07        |
-|  4  |      JDBC 라이브러리 기초       |    [java-jdbc](https://github.com/devFancy/java-jdbc)    |       2023.06.14        |
-|  5  |   JDBC 라이브러리 구현(Todo)    |   [java-jdbc2](https://github.com/devFancy/java-jdbc2)   |       2023.06.14        |
+| No  |                Name                |                           Repository                           |         Period          |
+| :-: | :--------------------------------: | :------------------------------------------------------------: | :---------------------: |
+|  1  |        회식 메뉴 추천(java)        |     [java-dinner](https://github.com/devFancy/java-dinner)     | 2023.05.29 ~ 2023.05.30 |
+|  2  |  입출금 내역 분석 프로그램(java)   |       [java-book](https://github.com/devFancy/java-book)       |       2023.06.05        |
+|  3  |      티켓 발행 프로그램(java)      |    [java-pattern](https://github.com/devFancy/java-pattern)    |       2023.06.07        |
+|  4  |     JDBC 라이브러리 구현(기초)     |       [java-jdbc](https://github.com/devFancy/java-jdbc)       |       2023.06.14        |
+|  5  |    JDBC 라이브러리 활용1(Todo)     |    [java-jdbc-todo](https://github.com/devFancy/java-jdbc2)    |       2023.06.15        |
+|  6  | JDBC 라이브러리 활용2(Apple Store) | [java-jdbc-apple](https://github.com/devFancy/java-jdbc-apple) | 2023.06.15 ~ 2023.06.16 |
 
 ## 🌖 클라우드 네이티브 과정
 
