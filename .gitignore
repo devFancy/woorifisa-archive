@@ -41,3 +41,5 @@ out/
 
 ### logs ###
 logs/
+
+.DS_Store

@@ -1,0 +1,48 @@
+실습 문제
+
+티켓(Ticket) 발행 프로그램 구현
+- Logger 활용해보기
+1. 사용자(User)는 티켓 발행기를 이용해서 티켓을 발급받을 수 있음
+2. 티켓 발급기(TicketMachine)는 기계가 한 개만 존재
+3. 발급된 티켓(ValidTicket)는 고유한 시리얼 번호가 있음
+4. 티켓의 시리얼 번호가 0인 것은 유효하지 않은 티켓(InvalidTicket)
+5. 발행될 수 있는 티켓의 장 수는 5장으로 제한
+
+class Summary
+TicketMachine - 티켓 발행기
+Ticket - 티켓 추상 클래스, 
+ValidTicket - 고유한 일련번호를 가지고 있는 티켓 클래스
+InvalidTicket - 발행 가능한 티켓을 초과했을 때 발급되는 유효하지 않은 티켓, 티켓 일련번호(고유번호)가 0인 티켓 클래스
+
+☆ -- TicketMachine - 티켓을 발행해주는 기계 -- ☆
+
+TicketMachine 필드 Summary
+ 1) int MAX_TICKET_LIMIT - 발행 가능한 최대 티켓 수
+ 2) int currentTicketCount - 현재까지 발급된 티켓 수
+ 3) long[] VALID_SERIAL_NUMBERS - 유효한 티켓 번호만 보관하고 있는 배열
+
+TicketMachine 메서드 Summary
+ 1) Ticket getTicket() - 티켓을 발급해주는 기능
+ 2) TicketMachine operateTicketMachine() - 티켓 머신 인스턴스 취득
+ 3) void checkValidTicket(Ticket ticket) - 전달받은 티켓이 유효한지 검증해주는 기능
+ 4) String toString() - 티켓 발행기의 고유번호를 확인할 수 있는 기능
+
+☆ -- Ticket - 티켓 추상 클래스 -- ☆
+Ticket 필드 Summary
+1) long serialNumber - 티켓 고유번호
+
+Ticket 메서드 Summary
+1) long getTicketNum() - 티켓의 고유 번호를 확인할 수 있는 기능
+
+
+☆ -- User - 티켓 발행기를 이용하여 티켓을 발급받는 사용자 클래스 -- ☆
+User 필드 Summary
+ 1) Ticket ticket - User가 보유한 티켓
+
+User 메서드 summary
+ 1) void useTicketMachine() - 티켓 발행기를 사용하는 기능
+ 2) Ticket getMyTicket() - 자신의 티켓을 꺼내는 기능, TicketMachine 클래스에서 고유한 티켓인지 확인할 때 사용
+ 3) String toString() - User 인스턴스의 주소값 출력을 통해 User 인스턴스가 개별 User인지 확인하는 기능
+ 
+ -----------------------------------------------------------------------
+ 
