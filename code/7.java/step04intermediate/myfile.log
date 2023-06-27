@@ -1,0 +1,8 @@
+6월 01, 2023 4:32:57 오후 dev.syntax.step02logging.Step04UsingFileHandler main
+정보: INFO 레벨 출력
+6월 01, 2023 4:32:57 오후 dev.syntax.step02logging.Step04UsingFileHandler main
+경고: WARNING 레벨 출력
+6월 01, 2023 4:32:57 오후 dev.syntax.step02logging.Step04UsingFileHandler main
+구성: CONFIG 레벨 출력
+6월 01, 2023 4:32:57 오후 dev.syntax.step02logging.Step04UsingFileHandler main
+미세: FINE 레벨 출력
