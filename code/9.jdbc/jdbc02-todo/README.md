@@ -14,10 +14,13 @@ JDBC 라이브러리 활용하여 Todo CRUD 구현
 - IntelliJ IDEA -> Database -> `+` 버튼 -> Data Source -> MySQL 클릭
 - General 탭 -> Host: localhost / Port: 3306 / User: root / Password: 1121 / URL: jdbc:mysql://localhost:3306
 - 설정을 마치면, Apply 및 Ok 버튼 클릭
-- <img width="500" alt="dataSource-id-pw" src="https://github.com/devFancy/java-jdbc2/assets/83820185/b0c9b46e-5528-4d13-b21e-ea2b2c18504e">
+
+![](img/dataSource-id-pw.png)
 
 - Database -> `@localhost` 마우스 우클릭 -> Navigation - `Jump to Query Console` -> `Open Default Console` 클릭
-- <img width="700" alt="database-localhost-query-Console" src="https://github.com/devFancy/java-jdbc2/assets/83820185/96601a9f-503c-4120-bc87-9f51a25ec849">
+
+![](img/database-localhost-query-Console.png)
+
 - 해당 Console 창 안에서 아래의 SQL 명령어 입력
 
 ```sql
@@ -49,7 +52,8 @@ from todo;
 ```
 
 - 명령어 입력 후에 실행(cmd + enter)해서 결과 확인 - 하단 `Services` 탭 - testdb.todo 테이블에서 확인 가능
-- <img width="700" alt="sql-result" src="https://github.com/devFancy/java-jdbc2/assets/83820185/9b4a68b6-b1d6-4ede-8a42-dd637eb83b8f">
+
+![](img/sql-result.png)
 
 ## CRUD 구현 후 실행
 
