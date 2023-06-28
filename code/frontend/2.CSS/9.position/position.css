@@ -1,0 +1,52 @@
+.boxes {
+    /* position: relative; */
+
+    background: honeydew;
+    border: 1px solid hotpink;
+
+    margin-top: 100px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: cornflowerblue;
+    border: 3px dashed firebrick;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+#box1 {
+    position: static; /* default value */
+}
+
+#box2 {
+    background: palegreen;
+
+    /* 자기 자신의 위치 기준으로 이동, 혼자서는 잘 안쓰임. */
+    /* position: relative; */
+
+    /* 부모 요소 기준, 요소의 위치가 떠서 box3, box4가 빈 자리를 채움 */
+    /* position: absolute; */
+
+    top: 20px;
+    left: 20px; 
+}
+
+/* relative가 부모 요소(boxes)와 같이 사용되었을 때 */
+#box3 {
+    background: sandybrown;
+
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+#box4 {
+    background: tomato;
+
+    /* 뷰포트(브라우저) 기준 */
+    position: fixed;
+    top: 20px;
+    left: 40px;
+}

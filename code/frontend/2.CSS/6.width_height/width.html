@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS width / height</title>
+  <link rel="stylesheet" href="width.css" />
+</head>
+
+<body>
+  <h1>CSS width / height</h1>
+  <hr />
+
+  <!-- 특정 영역 선택해서 한 블럭씩 주석 해제(Ctrl + /) -->
+
+  <!-- 블럭 1 -->
+  <div class="width-default">
+      <h2>Default width of block / inline element</h2>
+      <div style="border: 2px dashed orange">
+        div block element이기 때문에 기본적으로 default width 100%를 가지고
+        있음.
+      </div>
+    </div>
+
+  <!-- 블럭 2 -->
+  <br />
+    <span style="border: 2px dashed brown"
+      >span은 inline element이기 때문에 자신의 영역 크기만큼만의 width가
+      지정되어 있음.(auto)
+    </span>
+
+  <!-- 블럭 3 -->
+  <br />
+    <div class="width-px">
+      <h2>width with px(pixel) units</h2>
+      <div style="border: 2px dashed orange">px이 적용된 block element.</div>
+      <br />
+      <a href="" style="border: 2px dashed brown"
+        >px이 적용된 inline element.</a
+      >
+    </div>
+
+  <!-- 블럭 4 -->
+  <div class="width-pct">
+      <h2>width with %(percent) units</h2>
+      <div style="border: 2px dashed orange">%가 적용된 block element.</div>
+      <br />
+      <span style="border: 2px dashed brown">%가 적용된 inline element.</span>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS 코드 순서(CSS Overriding)</title>
+    <link rel="stylesheet" href="overriding.css" />
+    <style>
+      .internal-vs-external {
+        background-color: burlywood;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS 코드 순서(CSS Overriding)</h1>
+    <hr />
+
+    <h2>같은 type으로 중복 지정하였을 경우</h2>
+    <p>무슨 색이 될까?</p>
+
+    <h2>Internal vs External style 우선순위</h2>
+    <div class="internal-vs-external">
+      <p>Internal vs External style</p>
+      -> 가장 나중(아래, 코드와 더 가까운)에 적용된 style이 적용됨.<br />
+      Internal과 External의 상하 위치를 변경해보기.
+    </div>
+  </body>
+</html>

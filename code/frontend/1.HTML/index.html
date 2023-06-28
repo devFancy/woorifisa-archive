@@ -1,0 +1,83 @@
+<!-- 이 문서의 타입은 HTML 파일입니다. 라고 명시 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="mindstudio main page">
+    <title>Mindspace studio</title>
+</head>
+
+<body>
+    <!-- Semantic tag, 페이지 상의 의미있는 태그로 영역 구분용도 -->
+    <main>
+        <header>
+            <!-- h1태그는 한 페이지에 한 번만 사용 권장 -->
+            <h1>Mindspace studio</h1>
+            <nav>
+                <!-- ul>li*3 -->
+
+                <!-- Unordered list, 순서가 없는 리스트, ol(순서 있는) -->
+                <ul>
+                    <!-- li, List -->
+                    <li>History</li>
+                    <li>Gallery</li>
+                    <li>Game</li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <article>
+                <!-- lorem10, 로렘 입숨, 더미 텍스트, 
+                    화면 상의 간단한 페이지 결과 확인을 위해 사용
+                -->
+                <!-- <p>, Paragraph, 단락 작성 시 사용 -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, non?</p>
+
+                <figure>
+                    <!-- src, alt = attribute(속성), 
+                        각 태그별로 고유하게 존재, 
+                        공통 속성도 존재 -->
+                    <img src="mindspace-studio.jpg" alt="대낮의 카페에~~">
+                    <!-- 웹 접근성 측면에서 시각장애인(스크린 리더 활용)에게 이해하기 쉽게 서술적으로 작성 권장 -->
+                    <figcaption>Mindspace studio room</figcaption>
+                    <!-- Lorem Ipsum과 같은 더미 이미지 -->
+                    <img src="https://placeimg.com/200/200/animals" alt="">
+                </figure>
+            </article>
+            <article>
+                <h2>메뉴 제안</h2>
+
+                메뉴<br/>
+                제안
+                <form action="#">
+                    <!-- css 스타일 설정에서는 Kebab-case -->
+                    <label for="menu-name">메뉴이름</label>
+                    <!-- name과 같은 변수로 인식되는 부분은 JS 기반이기 때문에 camelCase 사용 권장 -->
+                    <input type="text" id="menu-name" name="menuName" />
+                    <label for="menu-desc">메뉴설명</label>
+                    <input type="text" id="menu-desc" name="menuDesc" />
+                    <label for="user-email">E-mail</label>
+                    <input type="email" id="user-email" name="userEmail" />
+                    <label for="user-password">비밀번호</label>
+                    <input type="password" id="user-password" name="userPassword" />
+                    <button type="submit">등록</button>
+                    <button type="reset">취소</button>
+                </form>
+            </article>
+            <aside>
+                <!-- 주로 광고 영역으로 표시 -->
+                <p>광고. 다이나핏 다운패딩~~</p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>1. 주소 : 서울 강남구 어디로 200-1</p>
+        <p>2. 연락처 : 02-000-0000</p>
+        <p>3. 사업자 : 라이언</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+.card {
+  box-shadow: -2px 18px 13px 16px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 30%;
+  margin-left: 20px;
+  border: 2px dashed grey;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:nth-child(1) {
+    /* display: none; */
+}
+
+.card:nth-child(2) {
+    /* visibility: hidden; */
+}
+
+.card:nth-last-child(1) {/* 마지막 요소부터 선택 */
+    /* display: none; */
+}
+
+.card:nth-child(odd) {/* 홀수 odd */
+    display: none;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+img {
+  width: 100%;
+}

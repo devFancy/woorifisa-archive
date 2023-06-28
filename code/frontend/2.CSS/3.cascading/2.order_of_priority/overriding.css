@@ -1,0 +1,12 @@
+p {
+    font-size: 30px;
+    color: tomato;
+}
+
+p {
+    color: mediumpurple;
+}
+
+.internal-vs-external {
+    background-color: mediumspringgreen;
+}

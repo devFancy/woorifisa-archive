@@ -1,0 +1,74 @@
+html {
+    /* 브라우저 최소 폰트를 10px로 제한하는 것 같음 */
+    font-size: 22px;
+}
+
+/* , 기호를 활용해서 여러 개의 태그 한 번에 지정 가능 */
+table, td, th {
+    border-collapse: collapse;
+    
+    /* border 작성 스타일 방식 */
+    border-style: dashed;
+    border-width: 2px;
+    border-color: black;
+    /* 한줄 작성 방식 */
+    /* border: 1px solid black; */
+
+    text-align: center;
+    border-spacing: 10px;
+    margin: 0 auto;
+}
+
+tr,
+td {
+    padding: 10px;
+}
+
+.tbl {}
+
+/* table 공통 */
+
+.browser-color {
+    color: red;
+}
+
+.google-hex {
+    color: #a52a2a;
+    font-family: 'Oswald', sans-serif;
+}
+
+.google-rgb {
+    color: rgb(0, 255, 0);
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.google-rgba {
+    color: rgba(0, 0, 255, 0.4);
+    font-family: 'Raleway', sans-serif;
+}
+
+.px-parent {
+    /* browser default 픽셀 크기 */
+    /* font-size: 16px; */
+    font-size: 32px;
+}
+
+.px-child {
+    font-size: 16px;
+}
+
+.em-parent {
+    font-size: 3em;
+}
+
+.em-child {
+    font-size: 0.5em;
+}
+
+.rem-parent {
+    font-size: 3rem;
+}
+
+.rem-child {
+    font-size: 0.5rem;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Text / Font-family / Units</title>
+    <!-- 1. 라이브 서버로 html 파일 실행, F12로 개발자도구 활성화, console 탭으로 이동하여 에러 확인 -->
+    <link rel="stylesheet" href="text_font_units.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Oswald&family=Raleway:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>CSS Text / Font-family / Units</h1>
+    <h2>Text / Font-family</h2>
+    <table class="tbl">
+        <!-- tr, Table row, 행 -->
+        <tr>
+            <!-- th, Table head, 테이블 머리부분 -->
+            <th>Text</th>
+            <th>Color</th>
+            <th>Font-family(style)</th>
+        </tr>
+        <tr class="browser-color">
+            <!-- td, 테이블 데이터 -->
+            <td>브라우저 기본 폰트 텍스트</td>
+            <td>red</td>
+            <td>Browser default</td>
+        </tr>
+        <tr class="google-hex">
+            <td>Google Web Font 텍스트</td>
+            <td>#a52a2a(brown hex color)</td>
+            <td>Oswald</td>
+        </tr>
+        <tr class="google-rgb">
+            <td>Google Web Font 텍스트</td>
+            <td>RGB(0, 255, 0)</td>
+            <td>Fuzzy Bubbles</td>
+        </tr>
+        <tr class="google-rgba">
+            <td>Google Web Font 텍스트</td>
+            <td>RGBA(0, 0, 255, 0.4)</td>
+            <td>Raleway</td>
+        </tr>
+    </table>
+
+    <h2>Units</h2>
+    <hr><br>
+
+    <!-- px-parent: px값으로 부모 요소 -->
+    <div class="px-parent">
+        px-parent text
+        <div class="px-child">
+            px-child text
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <!-- em : (Relative to parent element(=Tag)) %와 동일.-->
+    <div class="em-parent">
+        em-parent text
+        <div class="em-child">em-child text</div>
+    </div>
+
+    <br>
+    <hr>
+    <!-- rem : (Relative to root element) 루트에 지정된 폰트사이즈의 크기에 따라 지정.-->
+    <div class="rem-parent">
+        rem-parent text
+        <div class="rem-child">
+            rem-child text
+        </div>
+    </div>
+    <br>
+    <hr>
+</body>
+
+</html>

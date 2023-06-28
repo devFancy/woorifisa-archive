@@ -1,0 +1,20 @@
+.disney {
+    color: firebrick;
+}
+
+p {
+    border: dashed 2px;
+}
+
+h3 {
+    color: green;
+}
+
+#sidebar {
+    color: blue;
+}
+
+/* sidebar 내부에 있는 h3태그에게만 적용 */
+#sidebar h3 {
+    color: inherit;
+}

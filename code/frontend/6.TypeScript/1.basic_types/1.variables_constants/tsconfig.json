@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {    
+    "target": "ESNext",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */    
+    "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": true,                         /* When type checking, take into account 'null' and 'undefined'. */
+    "noEmitOnError": true,
+    "lib": ["ESNext", "DOM"]
+  }
+}

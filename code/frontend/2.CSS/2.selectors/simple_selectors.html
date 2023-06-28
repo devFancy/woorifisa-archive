@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>selectors</title>
+
+  <!-- simple_selectors.css를 이 HTML 파일과 연결해야 CSS 스타일이 적용될 수 있을 것 같다. 어떻게 해야할까? -->
+  <link rel="stylesheet" href="simple_selectors.css">
+  <!-- 구글 웹 폰트(Google Web font) 적용 코드 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>CSS 기본 선택자(CSS Selectors)</h1>
+  <hr />
+
+  <h2>1. 전체 선택자(*, Universal Selector) - 전체 폰트 적용</h2>
+
+  <h2>
+    2. 타입 셀렉터(Type Selector), 해당 타입은 전부 적용됨(color : slateblue)
+  </h2>
+
+  <!-- 단축키(Shortcut): 커서를 <p'여기'> 에 위치시키고 Ctrl + D로 <p>태그들을 한 번에 여러 개 선택 가능. -->
+  <p class="class-selector">3. 클래스 셀렉터(Class Selector)</p>
+
+  <p class="class-selector">Class Selector 텍스트.</p>
+
+  <p class="class-selector">Class Selector는 중복 적용됨.</p>
+
+  <p id="id-selector">4. 아이디 셀렉터(Id Selector)</p>
+
+  <p>
+    Id Selector도 중복 적용은 되지만,
+    <strong style="color: crimson"><u>한 번만 사용해야함.</u></strong>
+  </p>
+</body>
+
+</html>

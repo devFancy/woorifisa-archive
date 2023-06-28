@@ -1,0 +1,16 @@
+* {
+    color: red;
+}
+
+p {
+    font-size: 30px;
+    color: orange;
+}
+
+.class-selector {
+    color: brown;
+}
+
+#id-selector {
+  color: green;  
+}

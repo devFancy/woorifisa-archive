@@ -1,0 +1,23 @@
+/* General, reset.css */
+* {
+    font-family: "Playfair Display", serif;
+}
+
+h2 {
+    /* 폰트 색상(color)을 slateblue로 변경 */
+    /* ?? */
+}
+
+.class-selector {
+    /* 폰트(font)의 사이즈(size)를 30픽셀(px)로 변경 */
+    border: 2px dashed firebrick;
+}
+
+#id-selector {
+    /* 폰트(font)의 사이즈(size)를 30픽셀(px)로 변경 */
+    /* 폰트(font)의 서체 스타일(style)을 기울임(italic)꼴로 변경 */
+    /* 폰트 색상(color)을 forestgreen로 변경 */
+    font-size: 30px;
+    font-style: italic;
+    color: forestgreen;
+}

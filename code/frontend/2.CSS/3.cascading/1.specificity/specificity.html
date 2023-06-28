@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Specificity</title>
+  <!-- specificity.css 파일 생성 후 이 html파일과 연결 -->
+  <!-- specificity이름은 좌측 specificity.html 파일 선택 후 f2버튼 or 마우스 우클릭, rename으로 파일명 복사해서 만들기(오타 방지) -->
+  <link rel="stylesheet" href="specificity.css">
+</head>
+
+<body>
+  <h1>CSS 적용범위, 명시도 or 구체성(CSS Specificity)</h1>
+  <hr />
+
+  <p>Universal Selector</p>
+  <p>타입 or 태그 선택자(Tag or Type Selector)</p>
+  <p class="class-selector">클래스 선택자(Class Selector)</p>
+  <p class="class-selector" id="id-selector">아이디 선택자(Id Selector)</p>
+  <p class="class-selector" id="id-selector" style="color: blue;">인라인 스타일(Inline style)</p>
+
+  <a href="https://developer.mozilla.org/ko/docs/Web/CSS/Specificity">MDN</a>
+  <a href="https://specificity.keegan.st/">명시도 계산(Specificity Calculator)</a>
+  <a href="https://specifishity.com/">명시도 참고 그림</a>
+</body>
+
+</html>

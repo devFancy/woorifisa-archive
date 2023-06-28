@@ -1,0 +1,18 @@
+/* 직접 같이 타이핑하여 학습 */
+html, body {
+    height: 100%;
+}
+
+.height-default {
+    border: 2px solid greenyellow;
+}
+
+.height-px {
+    height: 300px;
+    border: 2px dashed orange;
+}
+
+.height-pct {
+    height: 50%;
+    border: 2px dashed tomato;
+}

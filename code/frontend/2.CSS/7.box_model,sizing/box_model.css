@@ -1,0 +1,16 @@
+/* 직접 같이 타이핑하여 학습 */
+* {
+    /* content-box가 기본값 */
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+}
+
+.box {
+    width: 300px;
+    background-color: skyblue;
+    font-size: 50px;
+    /* p20 */
+    padding: 20px;
+    border: dashed 10px beige;
+    margin: 20px;
+}
