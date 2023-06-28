@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 스프링 컨테이너가 bean들을 보관하는 설정 파일 -->
+
+<!-- https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/xsd-configuration.html -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="tapeReader" class="dev.spring.step03factory.TapeReader" factory-method="createTapeReader">
+        <constructor-arg ref="tape" />
+    </bean>
+
+    <bean id="tape" class="dev.spring.step03factory.Tape">
+        <constructor-arg type="String" name="name" value="아일랜드" />
+        <constructor-arg type="boolean" name="isWorked" value="true" />
+    </bean>
+</beans>

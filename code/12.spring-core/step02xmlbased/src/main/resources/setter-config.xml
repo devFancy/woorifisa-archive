@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 스프링 컨테이너가 bean들을 보관하는 설정 파일 -->
+
+<!-- https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/xsd-configuration.html -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- 프로그램에서 사용할 비즈니스 객체(Bean)를 정의 -->
+	<!--
+        id: 빈의 고유한 이름, 식별자
+        class: 빈의 타입(패키지명을 포함한 풀네임)
+        빈 팩토리(BeanFactory)
+    -->
+	<bean id="tapeReader" class="dev.spring.step01setter.TapeReader">
+		<!-- setter 기반 의존성 주입 방법 -->
+		<!-- TapeReader 클래스는 자신의 필드로 Tape를 가지고 있음 -->
+		<property name="tape" ref="tapeId"/>
+	</bean>
+
+	<!-- Tape.java 클래스도 스프링 컨테이너에서 하나의 빈(Bean)으로 관리되도록 등록 -->
+	<bean id="tapeId" class="dev.spring.step01setter.Tape">
+		<property name="name" value="아일랜드"/>
+		<property name="worked" value="true"/>
+	</bean>
+</beans>
