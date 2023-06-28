@@ -26,6 +26,17 @@
 
 ### 학습 기록
 
+| No  |    Name    |                                            Repository                                            |         Period          |
+| :-: | :--------: | :----------------------------------------------------------------------------------------------: | :---------------------: |
+|  1  |    HTML    |       [HTML](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/1.HTML)       |       2023.04.24        |
+|  2  |    CSS     |        [CSS](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/2.CSS)        | 2023.04.25 ~ 2023.04.26 |
+|  3  | JavaScript | [JavaScript](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/3.JavaScript) | 2023.04.27 ~ 2023.05.04 |
+|  4  |   Papago   |     [Papago](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/4.papago)     |       2023.05.05        |
+|  5  |    Vue     |        [Vue](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/5.vue)        | 2023.05.08 ~ 2023.05.16 |
+|  6  | TypeScript | [TypeScript](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/6.TypeScript) |       2023.05.26        |
+
+### 토이 프로젝트
+
 | No  |                      Name                      |                               Repository                               |         Period          |
 | :-: | :--------------------------------------------: | :--------------------------------------------------------------------: | :---------------------: |
 |  1  | 우리FIS 주변의 다양한 편의시설 소개(html, css) |     [html-css-moamoa](https://github.com/devFancy/html-css-moamoa)     |       2023.04.25        |
@@ -46,15 +57,24 @@
 
 ### 학습 기록
 
-| No  |                Name                |                               Repository                               |         Period          |
-| :-: | :--------------------------------: | :--------------------------------------------------------------------: | :---------------------: |
-|  1  |        회식 메뉴 추천(java)        |         [java-dinner](https://github.com/devFancy/java-dinner)         | 2023.05.29 ~ 2023.05.30 |
-|  2  |  입출금 내역 분석 프로그램(java)   |           [java-book](https://github.com/devFancy/java-book)           |       2023.06.05        |
-|  3  |      티켓 발행 프로그램(java)      |        [java-pattern](https://github.com/devFancy/java-pattern)        |       2023.06.07        |
-|  4  |     JDBC 라이브러리 구현(기초)     |           [java-jdbc](https://github.com/devFancy/java-jdbc)           |       2023.06.14        |
-|  5  |    JDBC 라이브러리 활용1(Todo)     |        [java-jdbc-todo](https://github.com/devFancy/java-jdbc2)        |       2023.06.15        |
-|  6  | JDBC 라이브러리 활용2(Apple Store) |     [java-jdbc-apple](https://github.com/devFancy/java-jdbc-apple)     | 2023.06.15 ~ 2023.06.16 |
-|  7  |    Connection Pool(java) (java)    | [java-ConnectionPool](https://github.com/devFancy/java-ConnectionPool) |       2023.06.20        |
+| No  |        Name        |                                          Repository                                           |         Period          |
+| :-: | :----------------: | :-------------------------------------------------------------------------------------------: | :---------------------: |
+|  7  |        Java        |      [Java](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java)      | 2023.05.29 ~ 2023.06.07 |
+|  8  |     SQL(MySQL)     |   [SQL(MySQL)](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/8.sql)    | 2023.06.08 ~ 2023.06.09 |
+|  9  |        JDBC        |      [JDBC](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc)      | 2023.06.12 ~ 2023.06.16 |
+| 10  |        JPA         |      [JPA](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/10.jpa)       |       2023.06.19        |
+| 11  | Web - Servlet, JSP |      [Web](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/11.web)       | 2023.06.20 ~ 2023.06.26 |
+| 12  |       Spring       | [Spring](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/12.spring-core) |      2023.06.27 ~       |
+
+### 토이 프로젝트
+
+| No  |                Name                |                                                       Repository                                                       |         Period          |
+| :-: | :--------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :---------------------: |
+|  1  |           회식 메뉴 추천           |         [java-dinner](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/java-dinner)         | 2023.05.29 ~ 2023.05.30 |
+|  2  |     입출금 내역 분석 프로그램      | [java-bankstatement2](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/java-bankstatement2) |       2023.06.05        |
+|  3  |     티켓 발행 프로그램(싱글톤)     |      [java-singleton](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/step05pattern)       |       2023.06.07        |
+|  4  |    JDBC 라이브러리 활용1(Todo)     |          [jdbc-todo](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc/jdbc02-todo)          |       2023.06.15        |
+|  5  | JDBC 라이브러리 활용2(Apple Store) |                            [jdbc-apple-store](https://github.com/devFancy/java-jdbc-apple)                             |       2023.06.16        |
 
 ## 🌖 클라우드 네이티브 과정
 
@@ -102,16 +122,17 @@
 
 ### 학습 기록
 
-| No  |                  Name                  |                                      Repository                                       |         Period          |
-| :-: | :------------------------------------: | :-----------------------------------------------------------------------------------: | :---------------------: |
-|  1  | 왜 우리는 Vue.js를 사용하는가?(Vue.js) | [woorifisa-fe-tech-seminar](https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar) | 2023.05.18 ~ 2023.05.24 |
+| No  |              Name              |                                      Repository                                       |         Period          |
+| :-: | :----------------------------: | :-----------------------------------------------------------------------------------: | :---------------------: |
+|  1  | 왜 우리는 Vue.js를 사용하는가? | [woorifisa-fe-tech-seminar](https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar) | 2023.05.18 ~ 2023.05.24 |
+|  2  |        OAuth2.0 & OIDC         |                             [woorifisa-be-tech-seminar]()                             | 2023.06.23 ~ 2023.06.30 |
 
 ### :books: 학습 로그
 
 - [자바스크립트 기초(1) - 변수, 자료형, 연산자](https://devfancy.github.io/Javascript-1/)
 - [자바스크립트 기초(2) - 조건문, 반복문, 객체](https://devfancy.github.io/JavaScript-2/)
 - [[Vue.js] 1. 기본 템플릿 문법](https://devfancy.github.io/VueJs-1/)
-- [[Java] 컬렉션 프레임워크 - List, Set, Map](https://devfancy.github.io/Java-Collection/)
+- [[Java] 컬렉션 프레임워크 - List](https://devfancy.github.io/Java-Collection-List/)
 - [[Java] ArrayList와 LinkedList의 성능 비교](https://devfancy.github.io/Java-ArrayList-LinkedList/)
 - [MacOS M1 기반 MySQL, Workbench, Sakila 설치하기](https://devfancy.github.io/MySQL-0-installation/)
 - [[MySQL 공식문서] 1. What is MySQL?](https://devfancy.github.io/MySQL-1-concept/)
