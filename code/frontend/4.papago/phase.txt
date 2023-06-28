@@ -1,0 +1,20 @@
+1. 프로젝트 생성
+원하는 폴더명 생성 후 해당 폴더를 VSCode 에디터로 열기
+
+2. NPM 기반 프로젝트 초기화
+command prompt> npm init // or npm init -y
+
+2. express 모듈(Node.js 기반 서버 구성용 프레임워크) 설치
+command prompt> npm install express
+설치법 참고: https://expressjs.com/ko/starter/installing.html
+
+3. 간단한 서버 구성 안내 코드
+
+// server.js(다른 이름으로 해도 상관없으나, 보통 index.js, server.js 등 사용)
+const express = require('express'); // express 모듈 불러오기
+const app = express(); // express app 인스턴스 생성
+
+const port = 3000;
+app.listen(port, () => console.log(`http://127.0.0.1:3000/ app listening on port ${3000}`));
+
+서버 구성 코드 참고: https://expressjs.com/ko/starter/hello-world.html
