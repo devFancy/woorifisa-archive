@@ -1,4 +1,4 @@
-package dev.starbar.util;
+package main.java.dev.starbar.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,9 +1,9 @@
-package dev.starbar.service;
+package main.java.dev.starbar.service;
 
 import java.util.List;
 
-import dev.starbar.dao.CoffeeDAO;
-import dev.starbar.model.Coffee;
+import main.java.dev.starbar.dao.CoffeeDAO;
+import main.java.dev.starbar.model.Coffee;
 
 /*
  * 해당 프로그램의 핵심 로직을 담고 있는 부분

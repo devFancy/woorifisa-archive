@@ -18,7 +18,7 @@ public class MyRoom {
 		// TapeReader 생성
 		// 컨테이너가 의존성을 추가하는 방식 = 의존성 주입
 		TapeReader reader = context.getBean(TapeReader.class);
-		dev.spring.step02constructor.Tape tape = context.getBean(Tape.class);
+		Tape tape = context.getBean(Tape.class);
 				
 		reader.test();
 

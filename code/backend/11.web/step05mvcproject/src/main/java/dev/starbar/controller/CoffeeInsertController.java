@@ -1,4 +1,4 @@
-package dev.starbar.controller;
+package main.java.dev.starbar.controller;
 
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dev.starbar.service.CoffeeService;
+import main.java.dev.starbar.service.CoffeeService;
 
 @WebServlet("/add-coffee")
 public class CoffeeInsertController extends HttpServlet {

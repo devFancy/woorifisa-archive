@@ -1,4 +1,4 @@
-package dev.mouse.util;
+package main.java.dev.mouse.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

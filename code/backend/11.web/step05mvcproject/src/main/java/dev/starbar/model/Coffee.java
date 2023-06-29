@@ -1,4 +1,4 @@
-package dev.starbar.model;
+package main.java.dev.starbar.model;
 
 public class Coffee {
 	private int id;

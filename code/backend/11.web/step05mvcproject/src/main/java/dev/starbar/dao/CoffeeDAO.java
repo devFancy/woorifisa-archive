@@ -1,4 +1,4 @@
-package dev.starbar.dao;
+package main.java.dev.starbar.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-import dev.starbar.model.Coffee;
-import dev.starbar.util.DButil;
+import main.java.dev.starbar.model.Coffee;
+import main.java.dev.starbar.util.DButil;
 
 /*
  * DAO: Data Access Object

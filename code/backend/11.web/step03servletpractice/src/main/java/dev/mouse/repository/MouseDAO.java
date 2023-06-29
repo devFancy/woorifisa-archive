@@ -1,4 +1,4 @@
-package dev.mouse.repository;
+package main.java.dev.mouse.repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import dev.mouse.domain.Mouse;
-import dev.mouse.util.DBUtil;
+import main.java.dev.mouse.domain.Mouse;
+import main.java.dev.mouse.util.DBUtil;
 
 public class MouseDAO {
 

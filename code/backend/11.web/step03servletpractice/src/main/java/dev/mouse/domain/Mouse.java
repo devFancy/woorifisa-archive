@@ -1,4 +1,4 @@
-package dev.mouse.domain;
+package main.java.dev.mouse.domain;
 
 
 public class Mouse {

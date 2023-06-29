@@ -1,4 +1,4 @@
-package dev.mouse;
+package main.java.dev.mouse;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dev.mouse.domain.Mouse;
-import dev.mouse.repository.MouseDAO;
+import main.java.dev.mouse.domain.Mouse;
+import main.java.dev.mouse.repository.MouseDAO;
 
 @WebServlet("/mice") // mouse 의 복수형 mice
 public class MouseListServlet extends HttpServlet {

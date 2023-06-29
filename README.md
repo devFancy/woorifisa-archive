@@ -74,7 +74,7 @@
 |  2  |     입출금 내역 분석 프로그램      | [java-bankstatement2](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/java-bankstatement2) |       2023.06.05        |
 |  3  |     티켓 발행 프로그램(싱글톤)     |      [java-singleton](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/step05pattern)       |       2023.06.07        |
 |  4  |    JDBC 라이브러리 활용1(Todo)     |          [jdbc-todo](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc/jdbc02-todo)          |       2023.06.15        |
-|  5  | JDBC 라이브러리 활용2(Apple Store) |                            [jdbc-apple-store](https://github.com/devFancy/java-jdbc-apple)                             |       2023.06.16        |
+|  5  | JDBC 라이브러리 활용2(Apple Store) |      [jdbc-apple-store](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc/jdbc03-apple)      |       2023.06.16        |
 
 ## 🌖 클라우드 네이티브 과정
 

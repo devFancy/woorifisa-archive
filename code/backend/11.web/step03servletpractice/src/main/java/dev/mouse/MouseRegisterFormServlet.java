@@ -1,4 +1,4 @@
-package dev.mouse;
+package main.java.dev.mouse;
 
 import java.io.IOException;
 import java.io.PrintWriter;

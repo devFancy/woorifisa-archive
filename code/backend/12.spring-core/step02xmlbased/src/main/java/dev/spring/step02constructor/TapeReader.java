@@ -2,7 +2,7 @@ package dev.spring.step02constructor;
 
 public class TapeReader {
 
-	private dev.spring.step02constructor.Tape tape;
+	private Tape tape;
 	
 	
 	public TapeReader() {
