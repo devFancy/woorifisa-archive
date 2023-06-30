@@ -13,6 +13,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 
+import com.oidc.domain.member.exception.InvalidMemberException;
 import lombok.Getter;
 
 @Table(name = "members")

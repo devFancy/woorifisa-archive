@@ -1,5 +1,8 @@
 package com.oidc.domain.member.service;
 
+import com.oidc.domain.member.domain.Member;
+import com.oidc.domain.member.domain.MemberRepository;
+import com.oidc.domain.member.exception.NoSuchMemberException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

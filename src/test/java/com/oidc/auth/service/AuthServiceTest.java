@@ -1,6 +1,9 @@
 package com.oidc.auth.service;
 
 
+import com.oidc.auth.dto.TokenResponse;
+import com.oidc.config.TestConfig;
+import com.oidc.domain.member.domain.MemberRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

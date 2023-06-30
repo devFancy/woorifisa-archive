@@ -1,5 +1,13 @@
 package com.oidc.auth.service;
 
+import com.oidc.auth.dto.OAuthMember;
+import com.oidc.auth.dto.TokenResponse;
+import com.oidc.auth.support.JwtTokenProvider;
+import com.oidc.auth.support.OAuthClient;
+import com.oidc.auth.support.OAuthEndpoint;
+import com.oidc.domain.member.domain.Member;
+import com.oidc.domain.member.domain.SocialType;
+import com.oidc.domain.member.service.MemberService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -1,6 +1,11 @@
 package com.oidc.auth.controller;
 
+import com.oidc.auth.dto.TokenRequest;
+import com.oidc.auth.dto.TokenResponse;
+import com.oidc.auth.service.AuthService;
+import com.oidc.global.dto.CommonResponse;
 import org.springframework.http.ResponseEntity;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;

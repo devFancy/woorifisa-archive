@@ -1,5 +1,7 @@
 package com.oidc.domain.member.service;
 
+import com.oidc.domain.member.domain.Member;
+import com.oidc.domain.member.domain.SocialType;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

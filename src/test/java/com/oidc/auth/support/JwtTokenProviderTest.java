@@ -1,5 +1,6 @@
 package com.oidc.auth.support;
 
+import com.oidc.auth.exception.InvalidTokenException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

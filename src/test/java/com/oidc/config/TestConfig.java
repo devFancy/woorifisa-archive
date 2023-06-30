@@ -1,5 +1,7 @@
 package com.oidc.config;
 
+import com.oidc.auth.support.OAuthClient;
+import com.oidc.infrastructure.oauth.client.StubOAuthClient;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;
 

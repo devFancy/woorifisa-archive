@@ -1,5 +1,6 @@
 package com.oidc.domain.member.domain;
 
+import com.oidc.domain.member.exception.InvalidMemberException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
