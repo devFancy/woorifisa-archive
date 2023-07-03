@@ -1,4 +1,6 @@
-# 백엔드 기술 세미나 주제: OAuth2.0 & OIDC(Open ID Connect)
+# 주제: OAuth2.0 & OIDC(Open ID Connect)
+
+> 자세한 발표 자료는 👉🏻 [PDF](https://github.com/woorifisa-service-dev/tech-seminar-OIDC/blob/master/seminar/presentation.md) 
 
 ![‎oauth2 0-oidc ‎001](https://github.com/woorifisa-service-dev/tech-seminar-OIDC/assets/83820185/4e44f5a1-4d89-4cad-a9e0-f66b09c41271)
 
