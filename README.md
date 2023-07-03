@@ -125,7 +125,7 @@
 | No  |              Name              |                                      Repository                                       |         Period          |
 | :-: | :----------------------------: | :-----------------------------------------------------------------------------------: | :---------------------: |
 |  1  | 왜 우리는 Vue.js를 사용하는가? | [woorifisa-fe-tech-seminar](https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar) | 2023.05.18 ~ 2023.05.24 |
-|  2  |        OAuth2.0 & OIDC         |                             [woorifisa-be-tech-seminar]()                             | 2023.06.23 ~ 2023.06.30 |
+|  2  |        OAuth2.0 & OIDC         |                             [woorifisa-be-tech-seminar](https://github.com/woorifisa-service-dev/tech-seminar-OIDC/tree/develop)                             | 2023.06.23 ~ 2023.06.30 |
 
 ### :books: 학습 로그
 
