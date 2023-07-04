@@ -31,10 +31,12 @@ public class AuthController {
             (authService.generateGoogleLink()));
     }
 
+    // 인가코드 & 필수 파라미터를 포함해서 액세스 토큰 요청
     @PostMapping("/{oauthProvider}/token")
     public ResponseEntity<CommonResponse<TokenResponse>>
     generateToken(@PathVariable final String oauthProvider,
         @RequestBody final TokenRequest tokenRequest) {
+        // 전달받은 인가코드를 파라미터에 포함하여 전달 -> 응답 후 액세스 토큰 받아오기
         TokenResponse tokenResponse = authService.generateTokenWithCode(tokenRequest.getCode());
         return ResponseEntity.ok(new CommonResponse<>(tokenResponse));
     }

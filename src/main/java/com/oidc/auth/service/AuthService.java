@@ -38,12 +38,14 @@ public class AuthService {
 
     @Transactional
     public TokenResponse generateTokenWithCode(final String code) {
+        // 전달 받은 인가코드 & 필수 파라미터를 포함해서 액세스 토큰 요청
         OAuthMember oAuthMember = oAuthClient.getOAuthMember(code);
 
         String email = oAuthMember.getEmail();
 
         saveMemberIfNotExists(oAuthMember, email);
 
+        // Resource Owner & Client 확인 jwtToken 생성
         Member foundMember = memberService.findByEmail(email);
         String accessToken = jwtTokenProvider.createToken(String.valueOf(foundMember.getId()));
 

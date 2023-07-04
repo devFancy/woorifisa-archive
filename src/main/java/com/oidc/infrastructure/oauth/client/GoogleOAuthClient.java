@@ -59,6 +59,7 @@ public class GoogleOAuthClient implements OAuthClient {
         }
     }
 
+    // 인가코드 & 필수 파라미터를 포함해서 POST - 액세스 토큰 요청
     private GoogleTokenResponse requestGoogleToken(final String code) {
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
