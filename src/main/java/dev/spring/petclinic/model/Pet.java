@@ -1,15 +1,12 @@
 package dev.spring.petclinic.model;
 
-
-import lombok.AccessLevel;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 
 /*
- * Filed Summary
+ * Field Summary
  * String name;
  * LocalDate birthDate; // 컬럼명 birth_date
  *
@@ -17,6 +14,7 @@ import java.time.LocalDate;
  * Owner owner;
  */
 @Getter
+@Setter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Entity
 @Table(name = "pets")
@@ -36,8 +34,12 @@ public class Pet extends BaseEntity {
     @JoinColumn(name = "owner_id")
     private Owner owner;
 
-    public Pet(Long id) {
+    @Builder
+    public Pet(Long id, String name, PetType petType, LocalDate birthDate, Owner owner) {
         super(id);
+        this.name = name;
+        this.petType = petType;
+        this.birthDate = birthDate;
+        this.owner = owner;
     }
-
 }
