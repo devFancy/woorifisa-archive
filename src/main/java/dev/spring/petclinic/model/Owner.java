@@ -9,7 +9,6 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-
 /*
  * Pet 주인
  * 한 명의 주인은 여러 마리의 펫을 가지고 있을 수 있다.
@@ -25,8 +24,7 @@ import java.util.List;
 @NoArgsConstructor(access = AccessLevel.PROTECTED) // 기본 생성자, 접근레벨 Protected
 @Entity // JPA를 통해 관리하기 위해 Entity로 지정
 @Table(name = "owners") // 실제 생성될 DB 테이블명 owners
-public class Owner extends Person{
-
+public class Owner extends Person {
     @Column(name = "address")
     private String address;
 
@@ -35,7 +33,6 @@ public class Owner extends Person{
 
     @Column(name = "telephone")
     private String telephone;
-
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "owner")
     private List<Pet> pets = new ArrayList<>();
@@ -46,6 +43,9 @@ public class Owner extends Person{
         this.address = address;
         this.city = city;
         this.telephone = telephone;
-
+        this.pets = pets;
     }
+
+
+
 }
