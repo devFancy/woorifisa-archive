@@ -1,29 +1,45 @@
 # 학습 기록
 
-## [HTML](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/1.HTML)
+## Frontend
 
-## [CSS](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/2.CSS)
+### [HTML](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/1.HTML)
 
-## [JavaScript](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/3.JavaScript)
+### [CSS](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/2.CSS)
 
-## [Papago](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/4.papago)
+### [JavaScript](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/3.JavaScript)
 
-## [Vue](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/5.vue)
+### [Papago](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/4.papago)
 
-## [TypeScript](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/6.TypeScript)
+### [Vue](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/5.vue)
 
-## [Java](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java)
+### [TypeScript](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/6.TypeScript)
 
-## [SQL(MySQL)](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/8.sql)
+---
 
-## [Jdbc](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc)
+## Backend
 
-## [Jpa](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/10.jpa)
+### [Java](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java)
 
-## [Web](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/11.web)
+### [SQL](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/8.sql)
 
-## [Spring](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/12.spring-core)
+### [Jdbc](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc)
 
-- IoC, Inversion of Control
-- DI, Dependency Injection
-- AOP, Aspect Oriented Programming
+### [Jpa](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/10.jpa)
+
+### [Web](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/11.web)
+
+### [Spring](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/12.spring-core)
+
+### [Spring MVC](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/13.spring-mvc)
+
+### [Spring Boot](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/14.spring-boot)
+
+---
+
+## Cloud
+
+### [Vue-EC2-deployment](https://github.com/devFancy/woorifisa-archive/tree/main/code/cloud/1.frontend-deployment/first-vue-sample)
+
+### [Spring-EC2-deployment](https://github.com/devFancy/woorifisa-archive/tree/main/code/cloud/2.bakend-deployment/first-spring-sample)
+
+### [Jenkins-CI-CD](https://github.com/devFancy/woorifisa-archive/tree/main/code/cloud/3.ci-cd)
