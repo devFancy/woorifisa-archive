@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- UserController 클래스를 bean으로 등록 -->
+    <bean id="userController" class="dev.syntax.simpleaop.UserController" />
+
+    <!-- SimpleAdvice도 bean으로 등록 -->
+    <bean id="simpleAdvice" class="dev.syntax.simpleaop.SimpleAdvice" />
+
+    <bean id="proxyFactoryBean" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <!-- target: AOP를 적용할 대상 클래스(bean) -->
+        <property name="target" ref="userController" />
+
+        <!-- interfceptorNames: AOP 적용시 처리할 Advice -->
+        <property name="interceptorNames">
+            <list>
+                <value>simpleAdvice</value>
+            </list>
+        </property>
+    </bean>
+</beans>

@@ -71,19 +71,19 @@
 | 11  | Web - Servlet, JSP |             [Web](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/11.web)             | 2023.06.20 ~ 2023.06.26 |
 | 12  |       Spring       |       [Spring](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/12.spring-core)        | 2023.06.27 ~ 2023.07.04 |
 | 13  |     Spring MVC     |      [Spring MVC](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/13.spring-mvc)      | 2023.07.05 ~ 2023.07.11 |
-| 14  |    Spring Boot     | [Spring Boot](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/14.spring-boot/restapi) |
+| 14  |    Spring Boot     | [Spring Boot](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/14.spring-boot/restapi) | 2023.07.17 ~ 2023.07.18 |
 
 ### 토이 프로젝트
 
-| No  |                 Name                  |                                                       Repository                                                       |         Period          |
-| :-: | :-----------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :---------------------: |
-|  1  |            회식 메뉴 추천             |         [java-dinner](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/java-dinner)         | 2023.05.29 ~ 2023.05.30 |
-|  2  |       입출금 내역 분석 프로그램       | [java-bankstatement2](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/java-bankstatement2) |       2023.06.05        |
-|  3  |      티켓 발행 프로그램(싱글톤)       |      [java-singleton](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/step05pattern)       |       2023.06.07        |
-|  4  |      JDBC 라이브러리 활용1(Todo)      |          [jdbc-todo](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc/jdbc02-todo)          |       2023.06.15        |
-|  5  |  JDBC 라이브러리 활용2(Apple Store)   |      [jdbc-apple-store](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc/jdbc03-apple)      |       2023.06.16        |
-|  6  |    애완동물 병원 실습(Spring Boot)    |                       [spring-boot-petclinic](https://github.com/devFancy/spring-boot-petclinic)                       |       2023.07.06        |
-|  7  | 지각 면제권을 얻기위한 퀴즈 게임 풀기 |                 [backend-2nd-LatePass](https://github.com/woorifisa-service-dev/backend-2nd-LatePass)                  | 2023.07.12 ~ 2023.07.14 |
+| No  |                 Name                  |                                                       Repository                                                       |                      Period                       |
+| :-: | :-----------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------: |
+|  1  |            회식 메뉴 추천             |         [java-dinner](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/java-dinner)         |              2023.05.29 ~ 2023.05.30              |
+|  2  |       입출금 내역 분석 프로그램       | [java-bankstatement2](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/java-bankstatement2) |                    2023.06.05                     |
+|  3  |      티켓 발행 프로그램(싱글톤)       |      [java-singleton](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/step05pattern)       |                    2023.06.07                     |
+|  4  |      JDBC 라이브러리 활용1(Todo)      |          [jdbc-todo](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc/jdbc02-todo)          |                    2023.06.15                     |
+|  5  |  JDBC 라이브러리 활용2(Apple Store)   |      [jdbc-apple-store](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc/jdbc03-apple)      |                    2023.06.16                     |
+|  6  |    애완동물 병원 실습(Spring Boot)    |                       [spring-boot-petclinic](https://github.com/devFancy/spring-boot-petclinic)                       |                    2023.07.06                     |
+|  7  | 지각 면제권을 얻기위한 퀴즈 게임 풀기 |                 [backend-2nd-LatePass](https://github.com/woorifisa-service-dev/backend-2nd-LatePass)                  | 2023.07.12 ~ 2023.07.14 / 2023.07.20 ~ 2023.07.21 |
 
 ## 🌖 클라우드 네이티브 과정
 
