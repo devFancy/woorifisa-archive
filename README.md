@@ -12,95 +12,6 @@
 > 클라우드 서비스 개발 과정이란
 > <br><br>서비스 개발자에게 필요한 기초 프로그래밍 언어 활용(JavaScript, Java) 능력부터 프레임워크(Vue, Spring)를 활용한 프로그래밍 기술을 학습합니다. 뿐만 아니라 프로젝트 및 해커톤을 통해 현장중심형 학습 및 경험을 배우면서 클라우드 기반 핀테크 전문가로 양성하는 것이 목표입니다.
 
-## 🌘 프론트엔드 과정
-
-### 기간
-
-- 2023.04.24 ~ 05.23
-
-### 과정 목표
-
-- 화면 설계서를 이해하고 해당 기능을 구현할 수 있도록 HTML, CSS, JS 언어를 학습합니다.
-- 사용자 인터페이스를 만들기 위한 동적 JavaScript 프레임워크인 Vue.js를 학습합니다.
-- Vite 기반 단위 테스트 프레임워크인 Vitest를 통해 컴포넌트 내부를 체크하는 경험을 합니다.
-- 학습한 언어와 프레임워크를 활용하여 자기 주도적으로 **미션(or 토이 프로젝트)** 을 통해 협업 경험을 합니다.
-
-### 학습 기록
-
-| No  |    Name    |                                            Repository                                            |         Period          |
-| :-: | :--------: | :----------------------------------------------------------------------------------------------: | :---------------------: |
-|  1  |    HTML    |       [HTML](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/1.HTML)       |       2023.04.24        |
-|  2  |    CSS     |        [CSS](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/2.CSS)        | 2023.04.25 ~ 2023.04.26 |
-|  3  | JavaScript | [JavaScript](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/3.JavaScript) | 2023.04.27 ~ 2023.05.04 |
-|  4  |   Papago   |     [Papago](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/4.papago)     |       2023.05.05        |
-|  5  |    Vue     |        [Vue](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/5.vue)        | 2023.05.08 ~ 2023.05.16 |
-|  6  | TypeScript | [TypeScript](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/6.TypeScript) |       2023.05.26        |
-
-### 토이 프로젝트
-
-| No  |                      Name                      |                               Repository                               |         Period          |
-| :-: | :--------------------------------------------: | :--------------------------------------------------------------------: | :---------------------: |
-|  1  | 우리FIS 주변의 다양한 편의시설 소개(html, css) |     [html-css-moamoa](https://github.com/devFancy/html-css-moamoa)     |       2023.04.25        |
-|  2  |        코인 슬롯 머신 게임(javaScript)         | [javaScript-coinpick](https://github.com/devFancy/javaScript-coinpick) | 2023.05.02 ~ 2023.05.04 |
-|  3  |            Vue Todo 리스트(Vue.js)             |            [vue-todo](https://github.com/devFancy/vue-todo)            | 2023.05.10 ~ 2023.05.12 |
-
-## 🌗 백엔드 과정
-
-### 기간
-
-- 2023.05.26 ~ 2023.07.14
-
-### 과정 목표
-
-- 서비스 기능 부분을 담당하는 백엔드 프로그래밍 언어인 Java의 기본 문법과 관련 예제를 학습합니다.
-- 관계형 데이터베이스 관리 시스템인 MySQL를 학습하면서 개념 및 DB 조작 명령어를 학습합니다.
-- 웹 애플리케이션 서버(WAS)인 Servlet, JSP를 학습하면서 구현 및 동작 원리을 이해합니다.
-- 스프링에 대한 3가지 핵심 기술(DI, AOP, PSA)의 기본 지식을 습득하고 관련 예제를 통해 Spring 동작 원리를 학습합니다.
-- 이클립스 환경에서 STS 3(Spring Legacy Project) 설치하여 Spring MVC 패턴을 적용하여 HTTP 요청 및 응답 처리 방식을 학습합니다.
-- Gradle 환경에서 Spring Boot와 JPA를 이용하여 CRUD 기능 개발과 RDBS인 MySQL를 연결하는 과정을 학습합니다.
-- 학습한 언어와 프레임워크를 활용하여 자기 주도적으로 **미션(or 토이 프로젝트)** 을 통해 협업 경험을 합니다.
-
-### 학습 기록
-
-| No  |        Name        |                                                 Repository                                                 |         Period          |
-| :-: | :----------------: | :--------------------------------------------------------------------------------------------------------: | :---------------------: |
-|  7  |        Java        |            [Java](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java)             | 2023.05.29 ~ 2023.06.07 |
-|  8  |     SQL(MySQL)     |          [SQL(MySQL)](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/8.sql)          | 2023.06.08 ~ 2023.06.09 |
-|  9  |        JDBC        |            [JDBC](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc)             | 2023.06.12 ~ 2023.06.16 |
-| 10  |        JPA         |             [JPA](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/10.jpa)             |       2023.06.19        |
-| 11  | Web - Servlet, JSP |             [Web](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/11.web)             | 2023.06.20 ~ 2023.06.26 |
-| 12  |       Spring       |       [Spring](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/12.spring-core)        | 2023.06.27 ~ 2023.07.04 |
-| 13  |     Spring MVC     |      [Spring MVC](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/13.spring-mvc)      | 2023.07.05 ~ 2023.07.11 |
-| 14  |    Spring Boot     | [Spring Boot](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/14.spring-boot/restapi) | 2023.07.17 ~ 2023.07.18 |
-
-### 토이 프로젝트
-
-| No  |                 Name                  |                                                       Repository                                                       |                      Period                       |
-| :-: | :-----------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------: |
-|  1  |            회식 메뉴 추천             |         [java-dinner](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/java-dinner)         |              2023.05.29 ~ 2023.05.30              |
-|  2  |       입출금 내역 분석 프로그램       | [java-bankstatement2](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/java-bankstatement2) |                    2023.06.05                     |
-|  3  |      티켓 발행 프로그램(싱글톤)       |      [java-singleton](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/step05pattern)       |                    2023.06.07                     |
-|  4  |      JDBC 라이브러리 활용1(Todo)      |          [jdbc-todo](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc/jdbc02-todo)          |                    2023.06.15                     |
-|  5  |  JDBC 라이브러리 활용2(Apple Store)   |      [jdbc-apple-store](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc/jdbc03-apple)      |                    2023.06.16                     |
-|  6  |    애완동물 병원 실습(Spring Boot)    |                       [spring-boot-petclinic](https://github.com/devFancy/spring-boot-petclinic)                       |                    2023.07.06                     |
-|  7  | 지각 면제권을 얻기위한 퀴즈 게임 풀기 |                 [backend-2nd-LatePass](https://github.com/woorifisa-service-dev/backend-2nd-LatePass)                  | 2023.07.12 ~ 2023.07.14 / 2023.07.20 ~ 2023.07.21 |
-
-## 🌖 클라우드 네이티브 과정
-
-### 기간
-
-- 2023.07.19 ~ 2023.07.28
-
-### 과정 목표
-
-- 클라우드 컴퓨팅 서비스(AWS)를 사용할 때 필요한 기술인 리눅스(Linux) 서버를 학습하면서 기존에 구현한 프로그램을 서버에 배포하는 경험을 합니다.
-- 많이 활용되고 있는 클라우드 네이티브 개념을 이해하고 배포 환경을 구축할 수 있도록 Docker와 Kubernetes를 학습합니다.
-
-### 학습 기록
-
-| No  | Name | Repository |
-| :-: | :--: | :--------: |
-
 ## 🌕 핀테크 서비스 개발 프로젝트 과정
 
 ### 기간
@@ -137,16 +48,95 @@
 |  1  | 왜 우리는 Vue.js를 사용하는가? |  [woorifisa-fe-tech-seminar](https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar)  | 2023.05.18 ~ 2023.05.24 |
 |  2  |        OAuth2.0 & OIDC         | [woorifisa-be-tech-seminar](https://github.com/woorifisa-service-dev/tech-seminar-OIDC) | 2023.06.23 ~ 2023.06.30 |
 
-### :books: 학습 로그
+## 🌖 클라우드 네이티브 과정
 
-- [자바스크립트 기초(1) - 변수, 자료형, 연산자](https://devfancy.github.io/Javascript-1/)
-- [자바스크립트 기초(2) - 조건문, 반복문, 객체](https://devfancy.github.io/JavaScript-2/)
-- [[Vue.js] 1. 기본 템플릿 문법](https://devfancy.github.io/VueJs-1/)
-- [[Java] 컬렉션 프레임워크 - List](https://devfancy.github.io/Java-Collection-List/)
-- [[Java] ArrayList와 LinkedList의 성능 비교](https://devfancy.github.io/Java-ArrayList-LinkedList/)
-- [MacOS M1 기반 MySQL, Workbench, Sakila 설치하기](https://devfancy.github.io/MySQL-0-installation/)
-- [[MySQL 공식문서] 1. What is MySQL?](https://devfancy.github.io/MySQL-1-concept/)
-- [[MySQL 공식문서] 2. DML - 기본 DB 조작 명령어, DML 스키마](https://devfancy.github.io/MySQL-2-DML-basic/)
-- [[MySQL] 4. SELECT, JOIN - Practice](https://devfancy.github.io/MySQL-4-Practice/)
-- [[MySQL] 8. SELECT, JOIN, SubQuery - Practice](https://devfancy.github.io/MySQL-8-Practice/)
-- [[DB] 파티셔닝(Partitioning)](https://devfancy.github.io/DB-Partition/)
+### 기간
+
+- 2023.07.19 ~ 2023.07.28
+
+### 과정 목표
+
+- 클라우드 컴퓨팅 서비스(AWS)를 사용할 때 필요한 기술인 리눅스(Linux) 서버를 학습하면서 기존에 구현한 프로그램을 서버에 배포하는 경험을 합니다.
+- 많이 활용되고 있는 클라우드 네이티브 개념을 이해하고 배포 환경을 구축할 수 있도록 Docker와 Jenkins 개념을 학습합니다.
+- Linux, Docker, Jenkins 기술들을 활용하여 기존에 개발했던 팀 프로젝트([LatePass](https://github.com/woorifisa-service-dev/backend-2nd-LatePass))에 AWS EC2 구축부터 CI/CD 파이프라인을 구축하는 과정을 팀원들과 협업하며 주도적으로 해결하는 경험을 합니다.
+
+### 학습 기록
+
+| No  |             Name              |     Repository      |   Period   |
+| :-: | :---------------------------: | :-----------------: | :--------: |
+|  1  |  Vue 프로젝트 EC2 서버 배포   |  first-vue-sample   | 2023.07.18 |
+|  2  | Spring 프로젝트 EC2 서버 배포 | first-spring-sample | 2023.07.19 |
+|  3  |      Jenkins CI/CD 구축       |    jenkins-demo     | 2023.07.20 |
+
+## 🌗 백엔드 과정
+
+### 기간
+
+- 2023.05.26 ~ 2023.07.14
+
+### 과정 목표
+
+- 서비스 기능 부분을 담당하는 백엔드 프로그래밍 언어인 Java의 기본 문법과 관련 예제를 학습합니다.
+- 관계형 데이터베이스 관리 시스템인 MySQL를 학습하면서 개념 및 DB 조작 명령어를 학습합니다.
+- 웹 애플리케이션 서버(WAS)인 Servlet, JSP를 학습하면서 구현 및 동작 원리을 이해합니다.
+- 스프링에 대한 3가지 핵심 기술(DI, AOP, PSA)의 기본 지식을 습득하고 관련 예제를 통해 Spring 동작 원리를 학습합니다.
+- 이클립스 환경에서 STS 3(Spring Legacy Project) 설치하여 Spring MVC 패턴을 적용하여 HTTP 요청 및 응답 처리 방식을 학습합니다.
+- Gradle 환경에서 Spring Boot와 JPA를 이용하여 CRUD 기능 개발과 RDBS인 MySQL를 연결하는 과정을 학습합니다.
+- 학습한 언어와 프레임워크를 활용하여 자기 주도적으로 **토이 프로젝트** 을 통해 협업 경험을 합니다.
+
+### 학습 기록
+
+| No  |        Name        |                                                 Repository                                                 |         Period          |
+| :-: | :----------------: | :--------------------------------------------------------------------------------------------------------: | :---------------------: |
+|  7  |        Java        |            [Java](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java)             | 2023.05.29 ~ 2023.06.07 |
+|  8  |     SQL(MySQL)     |          [SQL(MySQL)](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/8.sql)          | 2023.06.08 ~ 2023.06.09 |
+|  9  |        JDBC        |            [JDBC](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc)             | 2023.06.12 ~ 2023.06.16 |
+| 10  |        JPA         |             [JPA](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/10.jpa)             |       2023.06.19        |
+| 11  | Web - Servlet, JSP |             [Web](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/11.web)             | 2023.06.20 ~ 2023.06.26 |
+| 12  |       Spring       |       [Spring](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/12.spring-core)        | 2023.06.27 ~ 2023.07.04 |
+| 13  |     Spring MVC     |      [Spring MVC](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/13.spring-mvc)      | 2023.07.05 ~ 2023.07.11 |
+| 14  |    Spring Boot     | [Spring Boot](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/14.spring-boot/restapi) | 2023.07.17 ~ 2023.07.18 |
+
+### 토이 프로젝트
+
+| No  |                 Name                  |                                                       Repository                                                       |                      Period                       |
+| :-: | :-----------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------: |
+|  1  |            회식 메뉴 추천             |         [java-dinner](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/java-dinner)         |              2023.05.29 ~ 2023.05.30              |
+|  2  |       입출금 내역 분석 프로그램       | [java-bankstatement2](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/java-bankstatement2) |                    2023.06.05                     |
+|  3  |      티켓 발행 프로그램(싱글톤)       |      [java-singleton](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/step05pattern)       |                    2023.06.07                     |
+|  4  |      JDBC 라이브러리 활용1(Todo)      |          [jdbc-todo](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc/jdbc02-todo)          |                    2023.06.15                     |
+|  5  |  JDBC 라이브러리 활용2(Apple Store)   |      [jdbc-apple-store](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc/jdbc03-apple)      |                    2023.06.16                     |
+|  6  |    애완동물 병원 실습(Spring Boot)    |                       [spring-boot-petclinic](https://github.com/devFancy/spring-boot-petclinic)                       |                    2023.07.06                     |
+|  7  | 지각 면제권을 얻기위한 퀴즈 게임 풀기 |                 [backend-2nd-LatePass](https://github.com/woorifisa-service-dev/backend-2nd-LatePass)                  | 2023.07.12 ~ 2023.07.14 / 2023.07.20 ~ 2023.07.21 |
+
+## 🌘 프론트엔드 과정
+
+### 기간
+
+- 2023.04.24 ~ 05.23
+
+### 과정 목표
+
+- 화면 설계서를 이해하고 해당 기능을 구현할 수 있도록 HTML, CSS, JS 언어를 학습합니다.
+- 사용자 인터페이스를 만들기 위한 동적 JavaScript 프레임워크인 Vue.js를 학습합니다.
+- Vite 기반 단위 테스트 프레임워크인 Vitest를 통해 컴포넌트 내부를 체크하는 경험을 합니다.
+- 학습한 언어와 프레임워크를 활용하여 자기 주도적으로 **토이 프로젝트** 을 통해 협업 경험을 합니다.
+
+### 학습 기록
+
+| No  |    Name    |                                            Repository                                            |         Period          |
+| :-: | :--------: | :----------------------------------------------------------------------------------------------: | :---------------------: |
+|  1  |    HTML    |       [HTML](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/1.HTML)       |       2023.04.24        |
+|  2  |    CSS     |        [CSS](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/2.CSS)        | 2023.04.25 ~ 2023.04.26 |
+|  3  | JavaScript | [JavaScript](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/3.JavaScript) | 2023.04.27 ~ 2023.05.04 |
+|  4  |   Papago   |     [Papago](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/4.papago)     |       2023.05.05        |
+|  5  |    Vue     |        [Vue](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/5.vue)        | 2023.05.08 ~ 2023.05.16 |
+|  6  | TypeScript | [TypeScript](https://github.com/devFancy/woorifisa-archive/tree/main/code/frontend/6.TypeScript) |       2023.05.26        |
+
+### 토이 프로젝트
+
+| No  |                      Name                      |                               Repository                               |         Period          |
+| :-: | :--------------------------------------------: | :--------------------------------------------------------------------: | :---------------------: |
+|  1  | 우리FIS 주변의 다양한 편의시설 소개(html, css) |     [html-css-moamoa](https://github.com/devFancy/html-css-moamoa)     |       2023.04.25        |
+|  2  |        코인 슬롯 머신 게임(javaScript)         | [javaScript-coinpick](https://github.com/devFancy/javaScript-coinpick) | 2023.05.02 ~ 2023.05.04 |
+|  3  |            Vue Todo 리스트(Vue.js)             |            [vue-todo](https://github.com/devFancy/vue-todo)            | 2023.05.10 ~ 2023.05.12 |
