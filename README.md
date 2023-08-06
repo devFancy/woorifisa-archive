@@ -81,7 +81,7 @@
 | :-: | :----------------------------: | :-------------------------------------------------------------------------------------: | :---------------------: |
 |  1  | 왜 우리는 Vue.js를 사용하는가? |  [woorifisa-fe-tech-seminar](https://github.com/Jiyun-Parkk/woorifisa-fe-tech-seminar)  | 2023.05.18 ~ 2023.05.24 |
 |  2  |        OAuth2.0 & OIDC         | [woorifisa-be-tech-seminar](https://github.com/woorifisa-service-dev/tech-seminar-OIDC) | 2023.06.23 ~ 2023.06.30 |
-| 3 | Docker의 개념 및 Docker Swarm |[woorifisa-cloud-seminar](https://github.com/devFancy/woorifisa-archive/tree/main/docs/woorifisa-tech-seminar-3-docker/readme) | 2023.07.17 ~ 2023.07.28 |
+| 3 | Docker의 개념 및 Docker Swarm |[woorifisa-cloud-seminar](https://github.com/devFancy/woorifisa-archive/blob/main/docs/woorifisa-tech-seminar-3-docker/README.md) | 2023.07.17 ~ 2023.07.28 |
 
 ## 🌖 클라우드 네이티브 과정
 
