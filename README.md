@@ -1,9 +1,8 @@
-# [우리에프아이에스 아카데미](http://www.woorifis.com/kor/peoplelife/futureLab/labInfo)
+# 팬시의 우리FiSA 학습 기록
 
-> 우리에프아이에스 아카데미 1기 `클라우드 서비스 개발자 과정`을 진행하면서 활동한 내용을 한 눈에 보기 쉽게 정리한 저장소 입니다.
+> [우리에프아이에스 아카데미](http://www.woorifis.com/kor/peoplelife/futureLab/labInfo) 1기 `클라우드 서비스 개발자 과정`을 진행하면서 활동한 내용을 한 눈에 보기 쉽게 정리한 저장소 입니다.
 
 <p align="center">
-    <img src=./img/woori_fisa.png width="500px">
     <img src=./img/woori_fisa_2.png width="500px">
 </p>
 
@@ -31,13 +30,11 @@
 
 ### 레포지토리
 
-[Final Project: SUT](https://github.com/woorifisa-projects/2023-SUT)
+**Final Project**: [GoodFriends](https://github.com/woorifisa-projects/GoodFriends)
 
-(프로젝트에 대한 과정 및 협업 문화를 확인하고 싶으시면, [Wiki](https://github.com/woorifisa-projects/2023-SUT/wiki)를 참고해 주세요)
+(프로젝트에 대한 과정 및 협업 문화를 확인하고 싶으시면, [Wiki](https://github.com/woorifisa-projects/GoodFriends/wiki)를 참고해 주세요)
 
 ## 스터디 - 사이드 프로젝트
-
-![](/img/woorifisa-apply-logo.png)
 
 ### 기간
 
@@ -59,7 +56,7 @@
 
 ### 레포지토리
 
-[Side Project: Apply](https://github.com/woorifisa/apply)
+**Side Project**: [Apply](https://github.com/woorifisa/apply)
 
 (프로젝트에 대한 과정 및 협업 문화를 확인하고 싶으시면, [Wiki](https://github.com/woorifisa/apply/wiki)를 참고해 주세요)
 
@@ -96,6 +93,8 @@
 - Linux, Docker, Jenkins 기술들을 활용하여 기존에 개발했던 팀 프로젝트([LatePass](https://github.com/woorifisa-service-dev/backend-2nd-LatePass))에 **AWS EC2 구축부터 CI/CD 파이프라인을 구축**하는 과정을 팀원들과 협업하며 주도적으로 해결하는 경험을 합니다.
 
 ### 학습 기록
+
+> 아래의 repository는 보안상 private로 설정했습니다.
 
 | No  |             Name              |                                                            Repository                                                             |   Period   |
 | :-: | :---------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: | :--------: |
