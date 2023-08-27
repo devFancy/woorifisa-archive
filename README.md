@@ -1,4 +1,4 @@
-# 팬시의 우리FiSA 학습 기록
+# 팬시의 우리FISA 학습 기록
 
 > [우리에프아이에스 아카데미](http://www.woorifis.com/kor/peoplelife/futureLab/labInfo) 1기 `클라우드 서비스 개발자 과정`을 진행하면서 활동한 내용을 한 눈에 보기 쉽게 정리한 저장소 입니다.
 
