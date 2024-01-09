@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'WooridaumR';
+    src: url("WooridaumR.ttf");
+    font-display: swap; /* 폰트 로드 중 텍스트 표시 */
+}
+
+* {
+    font-family: 'WooridaumR';
+}
+
+.h1-class {
+    background: linear-gradient(45deg, rgb(0, 123, 199), white);
+    background-color: antiquewhite;
+    padding: 2%;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#internal-link a {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 3em;
+    margin-left: 5%;;
+}
+
+.category-class {
+    display: flex;
+}
+
+.store-class {
+    width: 50%;
+    border: 1px solid gainsboro;
+    margin: 3vh;
+    flex : 1;
+}
+
+.content-class {
+    padding: 3em;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: scale-down;
+    display: block;
+    margin: 0 auto;
+}
+
+.store {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subject {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: left;
+}
