@@ -1,0 +1,264 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #4eb7ac;
+    background-image:-webkit-gradient(linear,0 0,100% 0%,color-stop(0.5,#fbf3dd),color-stop(0.5,transparent),to(transparent));
+    background-size: 10% 10%;
+}
+
+/* header */
+header {
+    font-family: 'Black Han Sans', sans-serif;
+    width: 100%;
+    margin: 0 0;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #447ab6;
+    Position: sticky;
+    top:0px;
+    z-index: 999;
+}
+
+#headerTitle {
+    font-size: 10vh;
+    padding-top: 2%;
+    text-align: center;
+    margin-right: -30px;
+    color: #fbf3dd;
+}
+
+#headerBearImg {
+    margin-top: 1%;
+}
+
+/* main */
+
+main {
+    font-family: 'Hahmlet', serif;
+    font-weight: bolder;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* slot machine */
+#coinSlotMachineWrap{
+    width: 100%;
+    margin-top: 5%;
+    background-color: rgb(255,227,91);
+}
+
+#coinSlotMachineTitleContainer {
+    padding-top: 3%;
+    padding-left: 3%;
+    margin: 1% 0;
+    width: 100%;
+    color: #4b4218;
+
+}
+
+#coinSlotMachineTitle{
+    width: 100%;
+    text-align:left;
+    font-size: 5vh;
+}
+
+#coinSlotMachineTitleContent{
+    width: 100%;
+    text-align: left;
+    font-size: 3vh;
+}
+
+#coinSlotMachineContainer {
+    width: 100%;
+    height: 60vh;
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+#coinSlotMachineOuterbox {
+    width: 80%;
+    height: 90%;
+    margin-top:0;
+    background-color: #dbdbd2;
+    display: inline-flex;
+    justify-content: space-around;
+    border: 5px solid #4b4218;
+
+}
+
+.coin-slot-machine-innerbox {
+    background-color: aliceblue;
+    width: 30%;
+    height: 50%;
+    margin: auto 0;
+    font-size: 3.5vh;
+    text-align: center;
+    border: 5px solid #4b4218;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin-slot-machine-innerbox-content{
+    color: #4b4218;
+}
+
+/* coin_slot_machine_button */
+
+#coinSlotMachineButtonContainer {
+width: 15%;
+height: 90%;
+margin-top:0;
+position: relative;
+z-index: 10;
+cursor: pointer;
+}
+
+#top {
+    background-color: #4b4218;
+    width: 100%;
+    height: 15px;
+    top: 50%;
+    position: absolute;
+}
+
+#ball {
+    display: block;
+    background-color: #E7919f;
+    width: 6.25vh;
+    height: 6.25vh;
+    position: absolute;
+    right: -0.625vh;
+    top: -2.5vh;
+    border-radius: 50%;
+    border: 0.25vh solid #4b4218;
+}
+
+#bottom {
+    background-color: #4b4218;
+    width: 5vh;
+    height: 18vh;
+    position: absolute;
+    top: 35%;
+    border-radius: 10px;
+}
+
+
+
+/* coin list */
+#coinListWrap {
+    width: 100%;
+    background-color: rgb(255,227,91);
+}
+
+#coinListTitle {
+    font-size: 5vh;
+    color: #4b4218;
+    text-align: left;
+    margin-top: 5%;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+#coinListContainer {
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 5%;
+    display: inline-flex;
+    justify-content: space-around;
+    color: #4b4218;
+}
+
+.coin-list-card {
+    text-align: center;
+    width: 30%;
+}
+
+.coin-table-title {
+    font-size: 3vh;
+    height: 10%;
+    border: 1vh solid #4b4218;
+    margin-bottom: 0; 
+    padding-top: 2vh
+}
+
+.coin-list-table {
+    width: 100%;
+    height: 80%;
+
+}
+
+/* coin list의 table - th, td 적용 */
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    height: 10%;
+    font-size: 2.5vh;
+    background-color: #E7919f;
+    border-bottom: 1px solid #4b4218;
+    border-right: 1px solid #4b4218;
+}
+
+th:last-child {
+    border-right: none;
+}
+
+tr {
+    border-bottom: 1px solid #4b4218;
+}
+
+tr:last-child{
+    border-bottom: none;
+}
+
+td {
+    height: auto;
+    font-size: 2vh;
+
+    border-right: 1px solid #4b4218;
+}
+
+td:last-child{
+    border-right: none;
+
+}
+/* footer */
+
+footer {
+    font-family: 'Black Han Sans', sans-serif;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: #447ab6;
+}
+
+#footerTitle {
+    border-right: 5px #fbf3dd solid;
+    font-size: 5vh;
+    padding-top: 1.5%;
+    margin-left: 25%;
+    padding-right: 3%;
+    text-align: center;
+    color: #fbf3dd;
+
+}
+
+#footerContent {
+    padding: 3vh;
+    padding-left: 3vh;
+    margin-right: 40%;
+    text-align: left;
+    font-size: 2.5vh;
+    color: #fbf3dd;
+}
