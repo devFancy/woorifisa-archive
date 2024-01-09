@@ -108,13 +108,13 @@
 ### 토이 프로젝트
 
 | No  |                 Name                  |                                                       Repository                                                       |                      Period                       |
-| :-: | :-----------------------------------: | :--------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------: |
+| :-: | :-----------------------------------: |:----------------------------------------------------------------------------------------------------------------------:| :-----------------------------------------------: |
 |  1  |            회식 메뉴 추천             |         [java-dinner](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/java-dinner)         |              2023.05.29 ~ 2023.05.30              |
 |  2  |       입출금 내역 분석 프로그램       | [java-bankstatement2](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/java-bankstatement2) |                    2023.06.05                     |
 |  3  |      티켓 발행 프로그램(싱글톤)       |      [java-singleton](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/7.java/step05pattern)       |                    2023.06.07                     |
 |  4  |      JDBC 라이브러리 활용1(Todo)      |          [jdbc-todo](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc/jdbc02-todo)          |                    2023.06.15                     |
 |  5  |  JDBC 라이브러리 활용2(Apple Store)   |      [jdbc-apple-store](https://github.com/devFancy/woorifisa-archive/tree/main/code/backend/9.jdbc/jdbc03-apple)      |                    2023.06.16                     |
-|  6  |    애완동물 병원 실습(Spring Boot)    |                       [spring-boot-petclinic](https://github.com/devFancy/spring-boot-petclinic)                       |                    2023.07.06                     |
+|  6  |    애완동물 병원 실습(Spring Boot)    |                             [spring-boot-petclinic](./code/backend/spring-boot-petclinic)                              |                    2023.07.06                     |
 |  7  | 지각 면제권을 얻기위한 퀴즈 게임 풀기 |                 [backend-2nd-LatePass](https://github.com/woorifisa-service-dev/backend-2nd-LatePass)                  | 2023.07.12 ~ 2023.07.14 / 2023.07.20 ~ 2023.07.21 |
 
 ## 🌘 프론트엔드 과정
@@ -147,4 +147,4 @@
 | :-: | :--------------------------------------------: | :--------------------------------------------------------------------: | :---------------------: |
 |  1  | 우리FIS 주변의 다양한 편의시설 소개(html, css) |     [html-css-moamoa](https://github.com/devFancy/html-css-moamoa)     |       2023.04.25        |
 |  2  |        코인 슬롯 머신 게임(javaScript)         | [javaScript-coinpick](https://github.com/devFancy/javaScript-coinpick) | 2023.05.02 ~ 2023.05.04 |
-|  3  |            Vue Todo 리스트(Vue.js)             |            [vue-todo](https://github.com/devFancy/vue-todo)            | 2023.05.10 ~ 2023.05.12 |
+|  3  |            Vue Todo 리스트(Vue.js)             |            [vue-todo](https://github.com/devFancy/woorifisa-archive/tree/main/vue-todo)            | 2023.05.10 ~ 2023.05.12 |
